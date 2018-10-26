@@ -242,71 +242,55 @@ hr {
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     #home-page {
-        overflow: hidden;
         width: 100%;
-        height: 650px;
-        left: 0;
+        height: auto;
         background-color: #FFF;
         margin-top: 0px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 200px;
+        margin: 230px 0 150px 0;
         left: 0;
         width: 100%;
         height: auto;
         color: #000;
     }
-    #home-page #left-pic {
-       background-color: #FFF;
+    #home-page #home-pic {
+       background-color: transparent;
        height: auto;
     }
-    #home-page #intro {
-        top: 50px;
-        padding: 3px 0 30px 0;
-        font-size: 2.2em;
-        font-family: 'Lato', sans-serif;
-        text-transform: initial;
-        text-align: center;
-        line-height: 1.4;
-        font-weight: 400;
-        color: #FF6D00;
-        font-style: italic;
-    }
-    #home-page #intro img {
-        max-width: 250px;
-        margin-bottom: 10px;
+    #home-page #home-pic img {
+        margin-bottom: 0px;
+     }
+     #home-page #home-pic img:nth-child(2)  {
+         margin-top: 70px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #home-page {
-        height: 550px;
+        width: 100%;
+        height: auto;
+        background-color: #FFF;
+        margin-top: 0px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 210px;
+        margin: 200px 0 100px 0;
         left: 0;
-    }
-    #home-page #left-pic {
-        background-color: #FFF;
+        width: 100%;
         height: auto;
+        color: #000;
     }
-    #home-page #intro {
-        top: 30px;
-        padding: 5px 0 60px 0;
-        font-size: 1.6em;
-        font-family: 'Lato', sans-serif;
-        text-transform: initial;
-        text-align: center;
-        line-height: 1.4;
-        font-weight: 400;
-        color: #FF6D00;
-        font-style: italic;
+    #home-page #home-pic {
+       background-color: transparent;
+       height: auto;
     }
-    #home-page #intro img {
-        max-width: 210px;
-        margin-bottom: 15px;
+    #home-page #home-pic img {
+        margin-bottom: 0px;
+     }
+     #home-page #home-pic img:nth-child(2)  {
+         margin-top: 30px;
     }
 }
 
@@ -438,119 +422,47 @@ hr {
         background-color: transparent;
     }
     #architecture-info .panel {
-        padding-top: 50px;
+        padding: 50px 50px 0 50px;
         margin-top: 250px;
         margin-bottom: 300px;
         height: auto;
     }
     #architecture-info .panel p {
         margin-bottom: 50px;
-        font-size: 1.3em;
+        font-size: 1.4em;
         font-weight: 200;
-        line-height: 1.7;
+        line-height: 1.5;
         color: #844398;
     }
-    #architecture-info .panel img {
-
-    }
-    /* #architecture-info .panel .btn-primary, .btn-primary:focus, {
-        text-align: center;
-        color: #3C3C3C;
-        background-color: #ff6d00;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        border: 1px solid #FF6D00;
-    }
-    #architecture-info .panel .btn-primary:hover {
-        background: #3C3C3C;
-        color: #FF6D00;
-        border: 1px solid #FF6D00;
-        transition: 0.3s ease-in-out;
-    }
-    #architecture-info .panel .btn-primary:active {
-       background: #3C3C3C;
-       color: #FF6D00;
-       border: 1px solid #FF6D00;
-       transition: 0.3s ease-in-out;
-    } */
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    #landing {
-        margin-top: 10px;
-        height: 180px;
-        background-color: #FF6D00;
-        text-align: center;
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  160px;
+        background-color: transparent;
     }
-    #landing .cta {
-        padding-top: 80px;
-        text-transform: uppercase;
-        font-size: 0.838em;
+    #architecture-info .panel {
+        padding: 50px 50px 0 50px;
+        margin-top: 200px;
+        margin-bottom: 300px;
+        height: auto;
     }
-    #landing .cta .btn-primary, .btn-primary:focus, {
-        text-align: center;
-        color: #3C3C3C;
-        background-color: #ff6d00;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        border: 1px solid #FF6D00;
-    }
-    #landing .cta .btn-primary:hover {
-        background: #3C3C3C;
-        color: #FF6D00;
-        border: 1px solid #FF6D00;
-        transition: 0.3s ease-in-out;
-    }
-    #landing .cta .btn-primary:active {
-       background: #3C3C3C;
-       color: #FF6D00;
-       border: 1px solid #FF6D00;
-       transition: 0.3s ease-in-out;
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1.1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
     }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    #landing {
-        margin-top: 10px;
-        height: 120px;
-        background-color: #FF6D00;
-        text-align: center;
-    }
-    #landing .cta {
-        padding-top: 50px;
-        text-transform: uppercase;
-        font-size: 0.638em;
-    }
-    #landing .cta .btn-primary, .btn-primary:focus, {
-        padding: 4px 8px;
-        text-align: center;
-        background-color: #ff6d00;
-        color: #3C3C3C;
-        font-size: 0.750em;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        border: 1px solid #FF6D00;
-    }
-    #landing .cta .btn-primary:hover {
-        padding: 4px 8px;
-        background: #3C3C3C;
-        color: #FF6D00;
-        border: 1px solid #FF6D00;
-        transition: 0.3s ease-in-out;
-    }
-    #landing .cta .btn-primary:active {
-        padding: 4px 8px;
-        background: #3C3C3C;
-        color: #FF6D00;
-        border: 1px solid #FF6D00;
-        transition: 0.3s ease-in-out;
-    }
+
 }
 
 @media (min-width: 420px) and (max-width: 767px) {
@@ -623,7 +535,7 @@ hr {
     }
     #attention .text {
         padding-top: 170px;
-        padding-bottom: 170px;
+        padding-bottom: 130px;
     }
     #attention .text .title {
        margin-top: calc(20% / 2);
@@ -653,22 +565,40 @@ hr {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    #phrase_1 {
+    #attention {
        height: auto;
-       background-color: #fbc69c;
+       background-color: #FFF;
     }
-    #phrase_1 .text {
-       padding-top: 110px;
-       padding-bottom: 110px;
+    #attention .text {
+        padding-top: 30px;
+        padding-bottom: 80px;
     }
-    #phrase_1 .text p {
-       font-size: 2.250em;
+    #attention .text .title {
+       margin-top: calc(20% / 2);
+    }
+    #attention .title img {
+        margin-top: 20px;
+        max-width: 100px;
+    }
+    #attention .visit-icon {
+        padding-left: 0;
+    }
+    #attention .visit img {
+        margin: 10px 0;
+        max-width: 80px;
+    }
+    #attention h2 {
+        font-size: 1.2em;
+        color: #844398;
+        font-weight: 800;
+        padding-left: 0;
+    }
+    #attention .text p {
+       font-size: .85em;
        font-family: 'Lato', sans-serif;
        color: #3c3c3d;
        font-weight: 400;
-       font-style: italic;
        line-height: 1.5;
-       text-align: center;
     }
 }
 
@@ -1850,8 +1780,8 @@ hr {
 
 @media (min-width: 1400px) {
     #get-in-touch {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         height: auto;
         background-color: #844398;
         color: #fff;
@@ -1860,8 +1790,9 @@ hr {
         margin-top: 46px;
         max-width: 140px;
     }
-    #get-in-touch .contact-text h3 {
+    #get-in-touch .contact h3, h4 {
         color: #fff;
+        font-weight: 400;
         font-family: 'Lato', sans-serif;
     }
     #get-in-touch .contact p {
@@ -1887,130 +1818,78 @@ hr {
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     #get-in-touch {
-        padding-top: 300px;
-        padding-bottom: 0px;
-        height: 900px;
-        background-image: url('../img/background-contact.png');
-        background-position: center, center;
-        background-size: cover;
-    }
-    #get-in-touch .contact {
-        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        height: auto;
+        background-color: #844398;
         color: #fff;
     }
-    #get-in-touch .contact-text {
-        margin-bottom: 30px;
+    #get-in-touch .contact img {
+        margin-top: 46px;
+        max-width: 140px;
     }
-    #get-in-touch .contact-text h3 {
+    #get-in-touch .contact h3, h4 {
         color: #fff;
+        font-weight: 400;
         font-family: 'Lato', sans-serif;
     }
-    #get-in-touch .contact-mail {
-        margin-bottom: 120px;
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .9em;
     }
-    #get-in-touch .contact-mail a, .contact-mail a:focus  {
+    #get-in-touch .contact-address, .contact-phone {
+        margin-top: 46px;
+    }
+    #get-in-touch .contact a, a:focus  {
         color: #fff;
-        font-size: 2.750em;
-        font-weight: 700;
+        text-decoration: underline;
         font-family: 'Lato', sans-serif;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
-    #get-in-touch .contact-mail a:hover {
-       color: #3c3c3d;
-       font-size: 2.750em;
-       font-weight: 700;
-       font-family: 'Lato', sans-serif;
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
        -webkit-transition: .3s ease-in-out;
        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active  {
-        text-align: center;
-        color: #ff6d00;
-        background-color: #fff;
-        border: 1px solid #fff;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary:hover {
-        background: transparent;
-        color: #fff;
-        border: 1px solid #fff;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #get-in-touch {
-        padding-top: 250px;
-        padding-bottom: 0px;
-        height: 770px;
-        background-image: url('../img/background-contact.png');
-        background-position: center, center;
-        background-size: cover;
-    }
-    #get-in-touch .contact {
-        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height: auto;
+        background-color: #844398;
         color: #fff;
     }
-    #get-in-touch .contact-text {
-        margin-bottom: 30px;
+    #get-in-touch .contact img {
+        margin-top: 46px;
+        max-width: 140px;
     }
-    #get-in-touch .contact-text h3 {
+    #get-in-touch .contact h3, h4 {
+        font-size: 1.2em;
         color: #fff;
-        font-family: 'Lato', sans-serif;
-        font-style: italic;
         font-weight: 400;
+        font-family: 'Lato', sans-serif;
     }
-    #get-in-touch .contact-mail {
-        margin-bottom: 90px;
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .75em;
     }
-    #get-in-touch .contact-mail a, .contact-mail a:focus  {
+    #get-in-touch .contact-address, .contact-phone {
+        margin-top: 46px;
+    }
+    #get-in-touch .contact a, a:focus  {
         color: #fff;
-        font-size: 2.750em;
-        font-weight: 700;
+        text-decoration: underline;
         font-family: 'Lato', sans-serif;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
-    #get-in-touch .contact-mail a:hover {
-       color: #3c3c3d;
-       font-size: 2.750em;
-       font-weight: 700;
-       font-family: 'Lato', sans-serif;
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
        -webkit-transition: .3s ease-in-out;
        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
-        text-align: center;
-        color: #ff6d00;
-        font-size: 0.938em;
-        background-color: #fff;
-        border: 1px solid #fff;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary:hover {
-        background: transparent;
-        color: #fff;
-        border: 1px solid #fff;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
     }
 }
 
