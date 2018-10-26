@@ -425,7 +425,7 @@ hr {
     }
 }
 
-/* ------- CTA ------- */
+/* ------- INFO ------- */
 
 @media (min-width: 1200px) {
     #architecture-info {
@@ -614,25 +614,40 @@ hr {
     }
 }
 
-/* ------- PHRASE 1 ------- */
+/* ------- HORARIOS ------- */
 
 @media (min-width: 1200px) {
-    #phrase_1 {
+    #attention {
        height: auto;
        background-color: #FFF;
     }
-    #phrase_1 .text {
-       padding-top: 170px;
-       padding-bottom: 170px;
+    #attention .text {
+        padding-top: 170px;
+        padding-bottom: 170px;
     }
-    #phrase_1 .text p {
-       font-size: 2.750em;
+    #attention .text .title {
+       margin-top: calc(20% / 2);
+    }
+    #attention .title img {
+        margin-top: 25px;
+        max-width: 150px;
+    }
+    #attention .visit-icon {
+        padding-left: 0;
+    }
+    #attention .visit img {
+        margin: 25px 0;
+        max-width: 100px;
+    }
+    #attention h2 {
+        color: #844398;
+        font-weight: 800;
+    }
+    #attention .text p {
+       font-size: 1em;
        font-family: 'Lato', sans-serif;
-       font-style: italic;
        color: #3c3c3d;
        font-weight: 400;
-       line-height: normal;
-       text-align: center;
        line-height: 1.5;
     }
 }
@@ -1831,270 +1846,42 @@ hr {
    }
 }
 
-/* ------- TEAM ------- */
-
-@media (min-width: 1200px) {
-    #team {
-        color: #8c8c8c;
-        height: auto;
-        padding-top: 180px;
-        padding-bottom: 180px;
-        background-color: #FFF;
-    }
-    #team h1 {
-        font-family: 'Lato', sans-serif;
-        text-transform: capitalize;
-        color: #404040;
-    }
-    #team #profile {
-        height: 200px;
-        margin-bottom: 50px;
-    }
-    #team #profile img {
-        margin-top: 0px;
-        margin-bottom: 30px;
-        border-radius: 100%;
-    }
-    #team h3 {
-        color: #3c3c3d;
-        text-transform: uppercase;
-        margin-bottom: 0;
-        font-family: 'Lato', sans-serif;
-    }
-    #team h4 {
-        color: #3c3c3d;
-        font-family: 'Lato', sans-serif;
-    }
-    #team p {
-        font-size: 1.000em;
-        font-family: 'Lato',sans-serif;
-        line-height: 1.8;
-        color: #3c3c3d;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    #team {
-        color: #8c8c8c;
-        height: auto;
-        padding-top: 170px;
-        padding-bottom: 100px;
-        background-color: #FFF;
-    }
-    #team h1 {
-        font-family: 'Lato', sans-serif;
-        text-transform: capitalize;
-        color: #404040;
-    }
-    #team #profile {
-        height: 200px;
-        margin-bottom: 20px;
-    }
-    #team #profile img {
-        margin-top: 10px;
-        margin-bottom: 30px;
-        border-radius: 100%;
-    }
-    #team h3 {
-        font-size: 1.250em;
-        color: #3c3c3d;
-        text-transform: uppercase;
-        margin-bottom: -5px;
-        font-family: 'Lato', sans-serif;
-    }
-    #team h4 {
-        font-size: 1.000em;
-        color: #3c3c3d;
-        font-family: 'Lato', sans-serif;
-    }
-    #team p {
-        font-size: 0.875em;
-        font-family: 'Lato',sans-serif;
-        line-height: 1.4;
-        color: #3c3c3d;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    #team {
-        color: #8c8c8c;
-        height: auto;
-        padding-top: 100px;
-        padding-bottom: 70px;
-        background-color: #FFF;
-    }
-    #team h1 {
-        font-family: 'Lato', sans-serif;
-        text-transform: capitalize;
-        color: #404040;
-    }
-    #team #profile {
-        height: 150px;
-        margin-bottom: 20px;
-    }
-    #team #profile img {
-        margin-top: 10px;
-        margin-bottom: 30px;
-        border-radius: 100%;
-    }
-    #team h3 {
-        font-size: .963em;
-        color: #3c3c3d;
-        text-transform: uppercase;
-        margin-bottom: -5px;
-        font-family: 'Lato', sans-serif;
-    }
-    #team h4 {
-        font-size: 0.875em;
-        color: #3c3c3d;
-        font-family: 'Lato', sans-serif;
-    }
-    #team p {
-        font-size: 0.750em;
-        font-family: 'Lato',sans-serif;
-        line-height: 1.4;
-        color: #3c3c3d;
-    }
-}
-
-@media (min-width: 420px) and (max-width: 767px) {
-    #team {
-        color: #8c8c8c;
-        height: auto;
-        padding-top: 100px;
-        padding-bottom: 70px;
-        background-color: #FFF;
-    }
-    #team h1 {
-        font-family: 'Lato', sans-serif;
-        text-transform: capitalize;
-        color: #404040;
-    }
-    #team #profile {
-        height: auto;
-        margin-bottom: 40px;
-    }
-    #team #profile img {
-        margin-top: 20px;
-        margin-bottom: 30px;
-        border-radius: 100%;
-    }
-    #team h3 {
-        font-size: 1.125em;
-        color: #3c3c3d;
-        text-transform: uppercase;
-        margin-bottom: -7px;
-        font-family: 'Lato', sans-serif;
-    }
-    #team h4 {
-        font-size: 1.050em;
-        color: #3c3c3d;
-        font-family: 'Lato', sans-serif;
-    }
-    #team p {
-        font-size: 1.050em;
-        font-family: 'Lato',sans-serif;
-        line-height: 1.4;
-        color: #3c3c3d;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 420px) {
-    #team {
-        color: #8c8c8c;
-        height: auto;
-        padding-top: 100px;
-        padding-bottom: 70px;
-        background-color: #FFF;
-    }
-    #team h1 {
-        font-family: 'Lato', sans-serif;
-        text-transform: capitalize;
-        color: #404040;
-    }
-    #team #profile {
-        height: auto;
-        margin-bottom: 30px;
-    }
-    #team #profile img {
-        margin-top: 20px;
-        margin-bottom: 30px;
-        border-radius: 100%;
-    }
-    #team h3 {
-        font-size: 1.000em;
-        color: #3c3c3d;
-        text-transform: uppercase;
-        margin-bottom: -7px;
-        font-family: 'Lato', sans-serif;
-    }
-    #team h4 {
-        font-size: .938em;
-        color: #3c3c3d;
-        font-family: 'Lato', sans-serif;
-    }
-    #team p {
-        font-size: 0.938em;
-        font-family: 'Lato',sans-serif;
-        line-height: 1.5;
-        color: #3c3c3d;
-    }
-}
-
 /* ------- CONTACT ------- */
 
 @media (min-width: 1400px) {
     #get-in-touch {
-        padding-top: 350px;
-        padding-bottom: 0px;
-        height: 980px;
-        background-image: url('../img/background-contact.png');
-        background-position: center, center;
-        background-size: cover;
-    }
-    #get-in-touch .contact {
-        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        height: auto;
+        background-color: #844398;
         color: #fff;
     }
-    #get-in-touch .contact-text {
-        margin-bottom: 30px;
+    #get-in-touch .contact img {
+        margin-top: 46px;
+        max-width: 140px;
     }
     #get-in-touch .contact-text h3 {
         color: #fff;
         font-family: 'Lato', sans-serif;
-        font-style: italic;
-        font-weight: 400;
     }
-    #get-in-touch .contact-mail {
-        margin-bottom: 120px;
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .9em;
     }
-    #get-in-touch .contact-mail a, .contact-mail a:focus  {
+    #get-in-touch .contact-address, .contact-phone {
+        margin-top: 46px;
+    }
+    #get-in-touch .contact a, a:focus  {
         color: #fff;
-        font-size: 2.750em;
-        font-weight: 700;
-        border-bottom: 3px solid #fff;
+        text-decoration: underline;
         font-family: 'Lato', sans-serif;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
-    #get-in-touch .contact-mail a:hover {
-       color: #3c3c3d;
-       font-size: 2.750em;
-       font-weight: 700;
-        border-bottom: 3px solid #3c3c3d;
-       font-family: 'Lato', sans-serif;
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
        -webkit-transition: .3s ease-in-out;
        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary:hover {
-        background: transparent;
-        color: #fff;
-        border: 1px solid #fff;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
     }
 }
 
