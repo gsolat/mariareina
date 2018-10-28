@@ -737,10 +737,9 @@ hr {
         padding-bottom: 50px;
     }
     #attention .title img {
-        display: none;
         margin-top: 23px;
-        margin-right: 0;
-        max-width: 65px;
+        padding-left: 0;
+        max-width: 70px;
     }
     #attention .visit {
         margin-top: 10px;
