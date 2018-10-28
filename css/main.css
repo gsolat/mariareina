@@ -362,80 +362,55 @@ hr {
 
 @media (min-width: 420px) and (max-width: 767px) {
     #home-page {
-        overflow: hidden;
         width: 100%;
-        height: 520px;
-        left: 0;
+        height: auto;
         background-color: #FFF;
         margin-top: 0px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 150px;
+        margin: 200px 0 150px 0;
         left: 0;
         width: 100%;
         height: auto;
         color: #000;
     }
-    #home-page #left-pic {
-       background-color: #FFF;
+    #home-page #home-pic {
+       background-color: transparent;
        height: auto;
     }
-    #home-page #intro {
-        top: 30px;
-        padding: 0px 0 30px 0;
-        font-size: 1.5em;
-        font-family: 'Lato', sans-serif;
-        text-transform: initial;
-        font-style: italic;
-        text-align: center;
-        line-height: 1.6;
-        font-weight: 400;
-        color: #FF6D00;
-    }
-    #home-page #intro img {
-        margin-bottom: 10px;
-        display: none;
+    #home-page #home-pic img {
+        margin-bottom: 0px;
+     }
+     #home-page #home-pic img:nth-child(2)  {
+         margin-top: 30px;
     }
 }
 
 @media (min-width: 300px) and (max-width: 419px) {
     #home-page {
-        overflow: hidden;
         width: 100%;
-        height: 420px;
-        left: 0;
+        height: auto;
         background-color: #FFF;
         margin-top: 0px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 110px;
+        margin: 200px 0 150px 0;
         left: 0;
         width: 100%;
         height: auto;
         color: #000;
     }
-    #home-page #left-pic {
-       background-color: #FFF;
+    #home-page #home-pic {
+       background-color: transparent;
        height: auto;
     }
-    #home-page #intro {
-        top: 20px;
-        padding: 0px 0 30px 0;
-        font-size: 1.3em;
-        font-family: 'Lato', sans-serif;
-        text-transform: initial;
-        text-align: center;
-        font-style: italic;
-        line-height: 1.5;
-        font-weight: 400;
-        color: #FF6D00;
-    }
-    #home-page #intro img {
-        max-width: 170px;
-        margin-bottom: 10px;
-        display: none;
+    #home-page #home-pic img {
+        margin-bottom: 0px;
+     }
+     #home-page #home-pic img:nth-child(2)  {
+         margin-top: 30px;
     }
 }
 
@@ -526,22 +501,26 @@ hr {
         background-color: #82CCEC;
         background-position: top center;
         background-repeat: repeat-x;
-        background-size:  160px;
+        background-size:  140px;
         background-color: transparent;
     }
     #architecture-info .panel {
-        padding: 50px 50px 0 50px;
-        margin-top: 200px;
-        margin-bottom: 300px;
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
         height: auto;
-        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+        box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
     #architecture-info .panel p {
         margin-bottom: 30px;
-        font-size: 1.1em;
+        font-size: 1em;
         font-weight: 200;
         line-height: 1.5;
         color: #844398;
+    }
+    #architecture-info .panel-img {
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
 }
 
@@ -552,22 +531,26 @@ hr {
         background-color: #82CCEC;
         background-position: top center;
         background-repeat: repeat-x;
-        background-size:  160px;
+        background-size:  140px;
         background-color: transparent;
     }
     #architecture-info .panel {
-        padding: 50px 50px 0 50px;
-        margin-top: 200px;
-        margin-bottom: 300px;
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
         height: auto;
-        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+        box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
     #architecture-info .panel p {
         margin-bottom: 30px;
-        font-size: 1.1em;
+        font-size: 1em;
         font-weight: 200;
         line-height: 1.5;
         color: #844398;
+    }
+    #architecture-info .panel-img {
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
 }
 
@@ -701,43 +684,92 @@ hr {
 }
 
 @media (min-width: 420px) and (max-width: 767px) {
-    #phrase_1 {
+    #attention {
        height: auto;
-       background-color: #fbc69c;
+       background-color: #FFF;
     }
-    #phrase_1 .text {
-       padding-top: 110px;
-       padding-bottom: 110px;
+    #attention .text {
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
-    #phrase_1 .text p {
-       font-size: 1.875em;
+    #attention .title img {
+        margin-top: 23px;
+        margin-right: 0;
+        max-width: 95px;
+    }
+    #attention .visit {
+        margin-top: 10px;
+    }
+    #attention .visit-icon {
+        padding-left: 0;
+    }
+    #attention .visit img {
+        margin: 10px 0;
+        max-width: 70px;
+    }
+    #attention h2 {
+        color: #844398;
+        font-weight: 800;
+        padding-left: 0;
+    }
+    #attention h3 {
+        font-size: 1.159em;
+        color: #844398;
+        font-weight: 800;
+        padding-left: 0;
+    }
+    #attention .text p {
+       font-size: .85em;
        font-family: 'Lato', sans-serif;
        color: #3c3c3d;
        font-weight: 400;
-       font-style: italic;
        line-height: 1.5;
-       text-align: center;
-   }
+    }
 }
 
 @media (min-width: 300px) and (max-width: 420px) {
-    #phrase_1 {
+    #attention {
        height: auto;
-       background-color: #fbc69c;
+       background-color: #FFF;
     }
-    #phrase_1 .text {
-       padding-top: 100px;
-       padding-bottom: 100px;
+    #attention .text {
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
-    #phrase_1 .text p {
-       font-size: 1.500em;
+    #attention .title img {
+        display: none;
+        margin-top: 23px;
+        margin-right: 0;
+        max-width: 65px;
+    }
+    #attention .visit {
+        margin-top: 10px;
+    }
+    #attention .visit-icon {
+        padding-left: 0;
+    }
+    #attention .visit img {
+        margin: 10px 0;
+        max-width: 70px;
+    }
+    #attention h2 {
+        color: #844398;
+        font-weight: 800;
+        padding-left: 0;
+    }
+    #attention h3 {
+        font-size: 1.159em;
+        color: #844398;
+        font-weight: 800;
+        padding-left: 0;
+    }
+    #attention .text p {
+       font-size: .85em;
        font-family: 'Lato', sans-serif;
        color: #3c3c3d;
        font-weight: 400;
-       font-style: italic;
        line-height: 1.5;
-       text-align: center;
-   }
+    }
 }
 
 /* ------- CONTACT ------- */
@@ -913,30 +945,34 @@ hr {
 
 @media (min-width: 420px) and (max-width: 767px) {
     #get-in-touch {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 60px 0;
         height: auto;
         background-color: #844398;
         color: #fff;
     }
-    #get-in-touch .contact img {
-        margin-top: 46px;
-        max-width: 140px;
-    }
-    #get-in-touch .contact h3, h4 {
-        font-size: 1.2em;
+    #get-in-touch .contact h3 {
+        font-size: 1.59em;
         color: #fff;
         font-weight: 400;
         font-family: 'Lato', sans-serif;
     }
+    #get-in-touch .contact h4 {
+        font-size: 1.1em;
+        color: #fff;
+        font-weight: 400;
+        margin: 5px 0;
+        font-family: 'Lato', sans-serif;
+    }
     #get-in-touch .contact p {
         font-weight: 200;
-        font-size: .75em;
+        font-size: .85em;
+        line-height: 1.5;
     }
-    #get-in-touch .contact-address, .contact-phone {
-        margin-top: 46px;
+    #get-in-touch .contact-address, .contact-phone, .contact-links {
+        margin-top: 32px;
     }
     #get-in-touch .contact a, a:focus  {
+        margin-right: 20px;
         color: #fff;
         text-decoration: underline;
         font-family: 'Lato', sans-serif;
@@ -952,60 +988,43 @@ hr {
 
 @media (min-width: 300px) and (max-width: 420px) {
     #get-in-touch {
-        padding-top: 220px;
-        padding-bottom: 0px;
-        height: 635px;
-        background-image: url('../img/background-contact.png');
-        background-position: center, center;
-        background-size: cover;
-    }
-    #get-in-touch .contact {
-        text-align: center;
+        padding: 60px 0;
+        height: auto;
+        background-color: #844398;
         color: #fff;
     }
-    #get-in-touch .contact-text {
-        margin-bottom: 20px;
-    }
-    #get-in-touch .contact-text h3 {
-        font-size: 1.063em;
+    #get-in-touch .contact h3 {
+        font-size: 1.59em;
         color: #fff;
-        font-family: 'Lato', sans-serif;
-        font-style: italic;
         font-weight: 400;
+        font-family: 'Lato', sans-serif;
     }
-    #get-in-touch .contact-mail {
-        margin-bottom: 80px;
-    }
-    #get-in-touch .contact-mail a, .contact-mail a:focus  {
+    #get-in-touch .contact h4 {
+        font-size: 1.1em;
         color: #fff;
-        font-size: 2.050em;
-        font-weight: 700;
+        font-weight: 400;
+        margin: 5px 0;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .85em;
+        line-height: 1.5;
+    }
+    #get-in-touch .contact-address, .contact-phone, .contact-links {
+        margin-top: 32px;
+    }
+    #get-in-touch .contact a, a:focus  {
+        color: #fff;
+        text-decoration: underline;
         font-family: 'Lato', sans-serif;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-align: center;
-        font-size: 0.750em;
-        color: #ff6d00;
-        background-color: #fff;
-        border: 1px solid #fff;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;
-        font-weight: 700;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary:hover, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
-        background: transparent;
-        border: 1px solid #fff;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
+       -webkit-transition: .3s ease-in-out;
+       transition: .3s ease-in-out;
     }
 }
 
