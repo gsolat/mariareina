@@ -83,7 +83,6 @@ hr {
 
 /* ------- HEADER ------- */
 
-
 @media (max-width: 767px) {
     .navbar-default .navbar-toggle {
         margin-top: 18px;
@@ -173,7 +172,7 @@ hr {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     .navbar.navbar-default {
         border: 0;
         border-radius: 0;
@@ -192,11 +191,51 @@ hr {
     }
     #main-menu.navbar-default .navbar-nav > li > a {
         font-family: 'Lato', sans-serif;
+        font-size: .70em;
         font-weight: 200;
         margin-top: 0px;
         border-bottom: 3px solid transparent;
         margin-bottom: 0px;
-        padding: 10px 25px 10px 25px;
+        padding: 4px 10px;
+        color: #FFF;
+    }
+    #main-menu.navbar-default .navbar-nav > li.active > a,
+    #main-menu.navbar-default .navbar-nav > li.open > a,
+    #main-menu.navbar-default .navbar-nav > li:hover > a {
+        background: rgba(132, 67, 152, 1);
+        padding-top: 10px;
+        border-radius: 0px;
+    }
+    .closebtn {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar.navbar-default {
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+    .navbar.navbar-default .navbar-toggle {
+        margin-top: 32px;
+    }
+    #main-menu.navbar-default {
+        background: transparent;
+        }
+    #main-menu.navbar-default .navbar-nav {
+        background: rgba(132, 67, 152, .8);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #main-menu.navbar-default .navbar-nav > li > a {
+        font-family: 'Lato', sans-serif;
+        font-size: .85em;
+        font-weight: 200;
+        margin-top: 0px;
+        border-bottom: 3px solid transparent;
+        margin-bottom: 0px;
+        padding: 10px 15px;
         color: #FFF;
     }
     #main-menu.navbar-default .navbar-nav > li.active > a,
@@ -296,37 +335,28 @@ hr {
 
 @media (min-width: 768px) and (max-width: 992px) {
     #home-page {
-        height: 550px;
-        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: #FFF;
         margin-top: 0px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 220px;
+        margin: 200px 0 100px 0;
         left: 0;
         width: 100%;
         height: auto;
         color: #000;
     }
-    #home-page #left-pic {
-       background-color: #FFF;
-       max-height: 200px;
+    #home-page #home-pic {
+       background-color: transparent;
+       height: auto;
     }
-    #home-page #intro {
-        top: 20px;
-        padding: 5px 0 30px 0;
-        font-size: 1.35em;
-        font-family: 'Lato', sans-serif;
-        text-transform: initial;
-        text-align: center;
-        font-style: italic;
-        line-height: 1.4;
-        font-weight: 400;
-        color: #FF6D00;
-    }
-    #home-page #intro img {
-        max-width: 170px;
-        margin-bottom: 10px;
+    #home-page #home-pic img {
+        margin-bottom: 0px;
+     }
+     #home-page #home-pic img:nth-child(2)  {
+         margin-top: 30px;
     }
 }
 
@@ -418,14 +448,15 @@ hr {
         background-color: #82CCEC;
         background-position: top center;
         background-repeat: repeat-x;
-        background-size:  200px;
+        background-size:  180px;
         background-color: transparent;
     }
     #architecture-info .panel {
         padding: 50px 50px 0 50px;
-        margin-top: 250px;
+        margin-top: 180px;
         margin-bottom: 300px;
         height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
     #architecture-info .panel p {
         margin-bottom: 50px;
@@ -451,6 +482,7 @@ hr {
         margin-top: 200px;
         margin-bottom: 300px;
         height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
     #architecture-info .panel p {
         margin-bottom: 30px;
@@ -462,67 +494,80 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  100px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 130px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: .75em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
 }
 
 @media (min-width: 420px) and (max-width: 767px) {
-    #landing {
-        margin-top: 10px;
-        height: 150px;
-        background-color: #FF6D00;
-        text-align: center;
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  160px;
+        background-color: transparent;
     }
-    #landing .cta {
-        padding-top: 60px;
-        text-transform: uppercase;
-        font-size: 0.750em;
+    #architecture-info .panel {
+        padding: 50px 50px 0 50px;
+        margin-top: 200px;
+        margin-bottom: 300px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
-    #landing .cta .btn-primary, .btn-primary:focus, {
-        text-align: center;
-        color: #3C3C3C;
-        background-color: #ff6d00;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        border: 1px solid #FF6D00;
-    }
-    #landing .cta .btn-primary:active {
-        background: #3C3C3C;
-        color: #FF6D00;
-        border: 1px solid #FF6D00;
-        transition: 0.3s ease-in-out;
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1.1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
     }
 }
 
 @media (min-width: 300px) and (max-width: 420px) {
-    #landing {
-        margin-top: 10px;
-        height: 150px;
-        background-color: #FF6D00;
-        text-align: center;
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  160px;
+        background-color: transparent;
     }
-    #landing .cta {
-        padding-top: 62px;
-        text-transform: uppercase;
-        font-size: 0.750em;
+    #architecture-info .panel {
+        padding: 50px 50px 0 50px;
+        margin-top: 200px;
+        margin-bottom: 300px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
-    #landing .cta .btn-primary, .btn-primary:focus, {
-        text-align: center;
-        color: #3C3C3C;
-        background-color: #ff6d00;
-        font-size: 0.750em;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        border: 1px solid #FF6D00;
-    }
-    #landing .cta .btn-primary:active {
-        background: #3C3C3C;
-        color: #FF6D00;
-        border: 1px solid #FF6D00;
-        transition: 0.3s ease-in-out;
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1.1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
     }
 }
 
@@ -555,6 +600,9 @@ hr {
         color: #844398;
         font-weight: 800;
     }
+    #attention h3 {
+        color: #844398;
+    }
     #attention .text p {
        font-size: 1em;
        font-family: 'Lato', sans-serif;
@@ -571,7 +619,7 @@ hr {
     }
     #attention .text {
         padding-top: 30px;
-        padding-bottom: 80px;
+        padding-bottom: 50px;
     }
     #attention .text .title {
        margin-top: calc(20% / 2);
@@ -593,6 +641,12 @@ hr {
         font-weight: 800;
         padding-left: 0;
     }
+    #attention h3 {
+        font-size: 1.2em;
+        color: #844398;
+        font-weight: 800;
+        padding-left: 0;
+    }
     #attention .text p {
        font-size: .85em;
        font-family: 'Lato', sans-serif;
@@ -603,23 +657,47 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    #phrase_1 {
+    #attention {
        height: auto;
-       background-color: #fbc69c;
+       background-color: #FFF;
     }
-    #phrase_1 .text {
-       padding-top: 100px;
-       padding-bottom: 100px;
+    #attention .text {
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
-    #phrase_1 .text p {
-       font-size: 1.875em;
+    #attention .text .title {
+       margin-top: calc(20% / 2);
+    }
+    #attention .title img {
+        margin-top: 20px;
+        max-width: 100px;
+    }
+    #attention .visit-icon {
+        padding-left: 0;
+    }
+    #attention .visit img {
+        margin: 10px 0;
+        max-width: 70px;
+    }
+    #attention h2 {
+        font-size: 1.159em;
+        color: #844398;
+        font-weight: 800;
+        padding-left: 0;
+    }
+    #attention h3 {
+        font-size: 1.159em;
+        color: #844398;
+        font-weight: 800;
+        padding-left: 0;
+    }
+    #attention .text p {
+       font-size: .75em;
        font-family: 'Lato', sans-serif;
        color: #3c3c3d;
        font-weight: 400;
-       font-style: italic;
-       line-height: 1.4;
-       text-align: center;
-   }
+       line-height: 1.5;
+    }
 }
 
 @media (min-width: 420px) and (max-width: 767px) {
@@ -662,9 +740,278 @@ hr {
    }
 }
 
+/* ------- CONTACT ------- */
+
+@media (min-width: 1400px) {
+    #get-in-touch {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        height: auto;
+        background-color: #844398;
+        color: #fff;
+    }
+    #get-in-touch .contact img {
+        margin-top: 46px;
+        max-width: 140px;
+    }
+    #get-in-touch .contact h3, h4 {
+        color: #fff;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .9em;
+    }
+    #get-in-touch .contact-address, .contact-phone {
+        margin-top: 46px;
+    }
+    #get-in-touch .contact a, a:focus  {
+        color: #fff;
+        text-decoration: underline;
+        font-family: 'Lato', sans-serif;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
+       -webkit-transition: .3s ease-in-out;
+       transition: .3s ease-in-out;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #get-in-touch {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        height: auto;
+        background-color: #844398;
+        color: #fff;
+    }
+    #get-in-touch .contact img {
+        margin-top: 46px;
+        max-width: 140px;
+    }
+    #get-in-touch .contact h3, h4 {
+        color: #fff;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .9em;
+    }
+    #get-in-touch .contact-address, .contact-phone {
+        margin-top: 46px;
+    }
+    #get-in-touch .contact a, a:focus  {
+        color: #fff;
+        text-decoration: underline;
+        font-family: 'Lato', sans-serif;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
+       -webkit-transition: .3s ease-in-out;
+       transition: .3s ease-in-out;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #get-in-touch {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height: auto;
+        background-color: #844398;
+        color: #fff;
+    }
+    #get-in-touch .contact img {
+        margin-top: 46px;
+        max-width: 140px;
+    }
+    #get-in-touch .contact h3, h4 {
+        font-size: 1.2em;
+        color: #fff;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .75em;
+    }
+    #get-in-touch .contact-address, .contact-phone {
+        margin-top: 46px;
+    }
+    #get-in-touch .contact a, a:focus  {
+        color: #fff;
+        text-decoration: underline;
+        font-family: 'Lato', sans-serif;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
+       -webkit-transition: .3s ease-in-out;
+       transition: .3s ease-in-out;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #get-in-touch {
+        padding: 20px 0;
+        height: auto;
+        background-color: #844398;
+        color: #fff;
+    }
+    #get-in-touch .contact img {
+        margin-top: 46px;
+        max-width: 150px;
+    }
+    #get-in-touch .contact h3 {
+        font-size: .85em;
+        color: #fff;
+        font-weight: 400;
+        margin: 5px 0;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact h4 {
+        font-size: .65em;
+        color: #fff;
+        font-weight: 400;
+        margin: 5px 0;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .65em;
+        line-height: 1.5;
+    }
+    #get-in-touch .contact-address, .contact-phone {
+        margin-top: 32px;
+    }
+    #get-in-touch .contact a, a:focus  {
+        margin-right: 20px;
+        color: #fff;
+        text-decoration: underline;
+        font-family: 'Lato', sans-serif;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
+       -webkit-transition: .3s ease-in-out;
+       transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact-links br {
+        display: none;
+    }
+    #get-in-touch .contact-links h3 {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+    #get-in-touch {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height: auto;
+        background-color: #844398;
+        color: #fff;
+    }
+    #get-in-touch .contact img {
+        margin-top: 46px;
+        max-width: 140px;
+    }
+    #get-in-touch .contact h3, h4 {
+        font-size: 1.2em;
+        color: #fff;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact p {
+        font-weight: 200;
+        font-size: .75em;
+    }
+    #get-in-touch .contact-address, .contact-phone {
+        margin-top: 46px;
+    }
+    #get-in-touch .contact a, a:focus  {
+        color: #fff;
+        text-decoration: underline;
+        font-family: 'Lato', sans-serif;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact a:hover {
+       color: #FFDC77;
+       -webkit-transition: .3s ease-in-out;
+       transition: .3s ease-in-out;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 420px) {
+    #get-in-touch {
+        padding-top: 220px;
+        padding-bottom: 0px;
+        height: 635px;
+        background-image: url('../img/background-contact.png');
+        background-position: center, center;
+        background-size: cover;
+    }
+    #get-in-touch .contact {
+        text-align: center;
+        color: #fff;
+    }
+    #get-in-touch .contact-text {
+        margin-bottom: 20px;
+    }
+    #get-in-touch .contact-text h3 {
+        font-size: 1.063em;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-weight: 400;
+    }
+    #get-in-touch .contact-mail {
+        margin-bottom: 80px;
+    }
+    #get-in-touch .contact-mail a, .contact-mail a:focus  {
+        color: #fff;
+        font-size: 2.050em;
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact .contact-cta .btn-primary {
+        text-align: center;
+        font-size: 0.750em;
+        color: #ff6d00;
+        background-color: #fff;
+        border: 1px solid #fff;
+        letter-spacing: .1px;
+        line-height: 46px;
+        margin: 0 5px;
+        font-weight: 400;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact .contact-cta .btn-primary {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    #get-in-touch .contact .contact-cta .btn-primary:hover, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
+        background: transparent;
+        border: 1px solid #fff;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+}
+
 /* ------- ABOUT ------- */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     #pillars {
         background-color: #fff;
         height: auto;
@@ -861,11 +1208,11 @@ hr {
         margin-bottom: 100px;
         margin-right: 10px;
     }
-}
+} */
 
 /* ------- AREAS ------- */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     #areas {
         height: auto;
         background-color: #fff;
@@ -1134,11 +1481,11 @@ hr {
         font-size: .95em;
         line-height: 1.5;
     }
-}
+} */
 
 /* ------- PROJECTS ------- */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     #projects {
         height: auto;
         background-color: #f1f1f1;
@@ -1672,11 +2019,11 @@ hr {
     #projects .project-item .item-text a:hover, a:focus {
         color: #FF6D00;
     }
-}
+} */
 
 /* ------- PHRASE 2 ------- */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     #phrase_2 {
         height: auto;
         background-color: #676767;
@@ -1774,299 +2121,4 @@ hr {
        line-height: 1.5;
        text-align: center;
    }
-}
-
-/* ------- CONTACT ------- */
-
-@media (min-width: 1400px) {
-    #get-in-touch {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        height: auto;
-        background-color: #844398;
-        color: #fff;
-    }
-    #get-in-touch .contact img {
-        margin-top: 46px;
-        max-width: 140px;
-    }
-    #get-in-touch .contact h3, h4 {
-        color: #fff;
-        font-weight: 400;
-        font-family: 'Lato', sans-serif;
-    }
-    #get-in-touch .contact p {
-        font-weight: 200;
-        font-size: .9em;
-    }
-    #get-in-touch .contact-address, .contact-phone {
-        margin-top: 46px;
-    }
-    #get-in-touch .contact a, a:focus  {
-        color: #fff;
-        text-decoration: underline;
-        font-family: 'Lato', sans-serif;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact a:hover {
-       color: #FFDC77;
-       -webkit-transition: .3s ease-in-out;
-       transition: .3s ease-in-out;
-    }
-}
-
-@media (min-width: 1200px) and (max-width: 1400px) {
-    #get-in-touch {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        height: auto;
-        background-color: #844398;
-        color: #fff;
-    }
-    #get-in-touch .contact img {
-        margin-top: 46px;
-        max-width: 140px;
-    }
-    #get-in-touch .contact h3, h4 {
-        color: #fff;
-        font-weight: 400;
-        font-family: 'Lato', sans-serif;
-    }
-    #get-in-touch .contact p {
-        font-weight: 200;
-        font-size: .9em;
-    }
-    #get-in-touch .contact-address, .contact-phone {
-        margin-top: 46px;
-    }
-    #get-in-touch .contact a, a:focus  {
-        color: #fff;
-        text-decoration: underline;
-        font-family: 'Lato', sans-serif;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact a:hover {
-       color: #FFDC77;
-       -webkit-transition: .3s ease-in-out;
-       transition: .3s ease-in-out;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    #get-in-touch {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        height: auto;
-        background-color: #844398;
-        color: #fff;
-    }
-    #get-in-touch .contact img {
-        margin-top: 46px;
-        max-width: 140px;
-    }
-    #get-in-touch .contact h3, h4 {
-        font-size: 1.2em;
-        color: #fff;
-        font-weight: 400;
-        font-family: 'Lato', sans-serif;
-    }
-    #get-in-touch .contact p {
-        font-weight: 200;
-        font-size: .75em;
-    }
-    #get-in-touch .contact-address, .contact-phone {
-        margin-top: 46px;
-    }
-    #get-in-touch .contact a, a:focus  {
-        color: #fff;
-        text-decoration: underline;
-        font-family: 'Lato', sans-serif;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact a:hover {
-       color: #FFDC77;
-       -webkit-transition: .3s ease-in-out;
-       transition: .3s ease-in-out;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-    #get-in-touch {
-        padding-top: 220px;
-        padding-bottom: 0px;
-        height: 780px;
-        background-image: url('../img/background-contact.png');
-        background-position: center, center;
-        background-size: cover;
-    }
-    #get-in-touch .contact {
-        text-align: center;
-        color: #fff;
-    }
-    #get-in-touch .contact-text {
-        margin-bottom: 20px;
-    }
-    #get-in-touch .contact-text h3 {
-        font-size: 1.063em;
-        color: #fff;
-        font-style: italic;
-        font-weight: 400;
-        font-family: 'Lato', sans-serif;
-    }
-    #get-in-touch .contact-mail {
-        margin-bottom: 20px;
-    }
-    #get-in-touch .contact-mail a, .contact-mail a:focus  {
-        color: #fff;
-        font-size: 2.500em;
-        font-weight: 700;
-        font-family: 'Lato', sans-serif;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact-mail a:hover {
-       color: #3c3c3d;
-       font-size: 2.500em;
-       font-weight: 700;
-       font-family: 'Lato', sans-serif;
-       -webkit-transition: .3s ease-in-out;
-       transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
-        text-align: center;
-        font-size: 0.750em;
-        color: #ff6d00;
-        background-color: #fff;
-        border: 1px solid #fff;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary:hover {
-        background: transparent;
-        color: #fff;
-        border: 1px solid #fff;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-}
-
-@media (min-width: 420px) and (max-width: 767px) {
-    #get-in-touch {
-        padding-top: 250px;
-        padding-bottom: 0px;
-        height: 760px;
-        background-image: url('../img/background-contact.png');
-        background-position: center, center;
-        background-size: cover;
-    }
-    #get-in-touch .contact {
-        text-align: center;
-        color: #fff;
-    }
-    #get-in-touch .contact-text {
-        margin-bottom: 20px;
-    }
-    #get-in-touch .contact-text h3 {
-        font-size: 1.063em;
-        color: #fff;
-        font-family: 'Lato', sans-serif;
-        font-style: italic;
-        font-weight: 400;
-    }
-    #get-in-touch .contact-mail {
-        margin-bottom: 80px;
-    }
-    #get-in-touch .contact-mail a, .contact-mail a:focus  {
-        color: #fff;
-        font-size: 2.250em;
-        font-weight: 700;
-        font-family: 'Lato', sans-serif;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;
-        font-weight: 700;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
-        text-align: center;
-        font-size: 0.950em;
-        color: #ff6d00;
-        background-color: #fff;
-        border: 1px solid #fff;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 420px) {
-    #get-in-touch {
-        padding-top: 220px;
-        padding-bottom: 0px;
-        height: 635px;
-        background-image: url('../img/background-contact.png');
-        background-position: center, center;
-        background-size: cover;
-    }
-    #get-in-touch .contact {
-        text-align: center;
-        color: #fff;
-    }
-    #get-in-touch .contact-text {
-        margin-bottom: 20px;
-    }
-    #get-in-touch .contact-text h3 {
-        font-size: 1.063em;
-        color: #fff;
-        font-family: 'Lato', sans-serif;
-        font-style: italic;
-        font-weight: 400;
-    }
-    #get-in-touch .contact-mail {
-        margin-bottom: 80px;
-    }
-    #get-in-touch .contact-mail a, .contact-mail a:focus  {
-        color: #fff;
-        font-size: 2.050em;
-        font-weight: 700;
-        font-family: 'Lato', sans-serif;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-align: center;
-        font-size: 0.750em;
-        color: #ff6d00;
-        background-color: #fff;
-        border: 1px solid #fff;
-        letter-spacing: .1px;
-        line-height: 46px;
-        margin: 0 5px;
-        font-weight: 400;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;
-        font-weight: 700;
-    }
-    #get-in-touch .contact .contact-cta .btn-primary:hover, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
-        background: transparent;
-        border: 1px solid #fff;
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
-}
+} */
