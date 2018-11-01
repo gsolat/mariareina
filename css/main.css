@@ -188,6 +188,7 @@ hr {
         background: rgba(132, 67, 152, .8);
         margin-top: 10px;
         margin-bottom: 10px;
+        margin-left: calc(50% - 154px);
     }
     #main-menu.navbar-default .navbar-nav > li > a {
         font-family: 'Lato', sans-serif;
@@ -225,8 +226,10 @@ hr {
         }
     #main-menu.navbar-default .navbar-nav {
         background: rgba(132, 67, 152, .8);
+        /* float: none; */
         margin-top: 10px;
         margin-bottom: 10px;
+        margin-left: calc(50% - 193px);
     }
     #main-menu.navbar-default .navbar-nav > li > a {
         font-family: 'Lato', sans-serif;
