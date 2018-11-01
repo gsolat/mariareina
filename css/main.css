@@ -285,10 +285,11 @@ hr {
         height: auto;
         background-color: #FFF;
         margin-top: 0px;
+        text-align: center;
     }
     #home-page .home-inner {
         position: relative;
-        margin: 230px 0 150px 0;
+        margin: 180px 0 100px 0;
         left: 0;
         width: 100%;
         height: auto;
@@ -416,7 +417,7 @@ hr {
 
 /* ------- INFO ------- */
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     #architecture-info {
         height: auto;
         background-image: url('../img/bg-1.svg');
@@ -429,7 +430,33 @@ hr {
     #architecture-info .panel {
         padding: 50px 50px 0 50px;
         margin-top: 180px;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 50px;
+        font-size: 1.4em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  180px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 50px 50px 0 50px;
+        margin-top: 180px;
+        margin-bottom: 200px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
@@ -556,14 +583,53 @@ hr {
 
 /* ------- HORARIOS ------- */
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
     #attention {
        height: auto;
        background-color: #FFF;
     }
     #attention .text {
-        padding-top: 170px;
+        padding-top: 30px;
         padding-bottom: 130px;
+    }
+    #attention .text .title {
+       margin-top: calc(20% / 2);
+    }
+    #attention .title img {
+        margin-top: 25px;
+        max-width: 150px;
+    }
+    #attention .visit-icon {
+        padding-left: 0;
+    }
+    #attention .visit img {
+        margin: 25px 0;
+        max-width: 100px;
+    }
+    #attention h2 {
+        color: #844398;
+        font-weight: 800;
+    }
+    #attention h3 {
+        color: #844398;
+    }
+    #attention .text p {
+       font-size: 1em;
+       font-family: 'Lato', sans-serif;
+       color: #3c3c3d;
+       font-weight: 400;
+       line-height: 1.5;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #attention {
+       height: auto;
+       background-color: #FFF;
+    }
+    #attention .text {
+        padding-top: 10px;
+        padding-bottom: 30px;
     }
     #attention .text .title {
        margin-top: calc(20% / 2);
@@ -813,8 +879,8 @@ hr {
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     #get-in-touch {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         height: auto;
         background-color: #844398;
         color: #fff;
