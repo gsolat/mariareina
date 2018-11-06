@@ -421,7 +421,7 @@ hr {
 /* ------- INFO ------- */
 
 @media (min-width: 1400px) {
-    #architecture-info {
+    #general-info {
         height: auto;
         background-image: url('../img/bg-1.svg');
         background-color: #82CCEC;
@@ -430,14 +430,14 @@ hr {
         background-size:  180px;
         background-color: transparent;
     }
-    #architecture-info .panel {
+    #general-info .panel {
         padding: 50px 50px 0 50px;
         margin-top: 180px;
         margin-bottom: 200px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
-    #architecture-info .panel p {
+    #general-info .panel p {
         margin-bottom: 50px;
         font-size: 1.4em;
         font-weight: 200;
@@ -447,7 +447,7 @@ hr {
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-    #architecture-info {
+    #general-info {
         height: auto;
         background-image: url('../img/bg-1.svg');
         background-color: #82CCEC;
@@ -456,14 +456,14 @@ hr {
         background-size:  180px;
         background-color: transparent;
     }
-    #architecture-info .panel {
+    #general-info .panel {
         padding: 50px 50px 0 50px;
         margin-top: 180px;
         margin-bottom: 200px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
-    #architecture-info .panel p {
+    #general-info .panel p {
         margin-bottom: 50px;
         font-size: 1.4em;
         font-weight: 200;
@@ -473,7 +473,7 @@ hr {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-    #architecture-info {
+    #general-info {
         height: auto;
         background-image: url('../img/bg-1.svg');
         background-color: #82CCEC;
@@ -482,14 +482,14 @@ hr {
         background-size:  160px;
         background-color: transparent;
     }
-    #architecture-info .panel {
+    #general-info .panel {
         padding: 50px 50px 0 50px;
         margin-top: 200px;
         margin-bottom: 300px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
-    #architecture-info .panel p {
+    #general-info .panel p {
         margin-bottom: 30px;
         font-size: 1.1em;
         font-weight: 200;
@@ -499,7 +499,7 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    #architecture-info {
+    #general-info {
         height: auto;
         background-image: url('../img/bg-1.svg');
         background-color: #82CCEC;
@@ -508,14 +508,14 @@ hr {
         background-size:  100px;
         background-color: transparent;
     }
-    #architecture-info .panel {
+    #general-info .panel {
         padding: 30px 30px 0 30px;
         margin-top: 100px;
         margin-bottom: 130px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
-    #architecture-info .panel p {
+    #general-info .panel p {
         margin-bottom: 30px;
         font-size: .75em;
         font-weight: 200;
@@ -525,7 +525,7 @@ hr {
 }
 
 @media (min-width: 420px) and (max-width: 767px) {
-    #architecture-info {
+    #general-info {
         height: auto;
         background-image: url('../img/bg-1.svg');
         background-color: #82CCEC;
@@ -534,28 +534,28 @@ hr {
         background-size:  140px;
         background-color: transparent;
     }
-    #architecture-info .panel {
+    #general-info .panel {
         padding: 30px 30px 0 30px;
         margin-top: 100px;
         margin-bottom: 30px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
-    #architecture-info .panel p {
+    #general-info .panel p {
         margin-bottom: 30px;
         font-size: 1em;
         font-weight: 200;
         line-height: 1.5;
         color: #844398;
     }
-    #architecture-info .panel-img {
+    #general-info .panel-img {
         margin-top: 10px;
         margin-bottom: 40px;
     }
 }
 
 @media (min-width: 300px) and (max-width: 420px) {
-    #architecture-info {
+    #general-info {
         height: auto;
         background-image: url('../img/bg-1.svg');
         background-color: #82CCEC;
@@ -564,21 +564,21 @@ hr {
         background-size:  140px;
         background-color: transparent;
     }
-    #architecture-info .panel {
+    #general-info .panel {
         padding: 30px 30px 0 30px;
         margin-top: 100px;
         margin-bottom: 30px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
-    #architecture-info .panel p {
+    #general-info .panel p {
         margin-bottom: 30px;
         font-size: 1em;
         font-weight: 200;
         line-height: 1.5;
         color: #844398;
     }
-    #architecture-info .panel-img {
+    #general-info .panel-img {
         margin-top: 10px;
         margin-bottom: 40px;
     }
@@ -1093,6 +1093,225 @@ hr {
        color: #FFDC77;
        -webkit-transition: .3s ease-in-out;
        transition: .3s ease-in-out;
+    }
+}
+
+/* ------- INNER PAGES ------- */
+
+/* ------- ARCHITECTURE ------- */
+
+@media (min-width: 1400px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-2.svg');
+        background-color: #82CCEC;
+        background-position: bottom center;
+        background-repeat: repeat-x;
+        background-size: 100px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 50px;
+        margin-top: 150px;
+        margin-bottom: 200px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 50px;
+        font-size: 1.6em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #arte {
+        font-size: 1.2em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(242, 224, 195, 0), rgba(242, 224, 195, 1));
+    }
+    #arte .panel {
+        padding: 30px;
+        margin-bottom: 130px;
+    }
+    #arte h1 {
+        color: #844398;
+    }
+    #arte .panel p {
+        margin-bottom: 20px;
+        padding-right: 30px;
+    }
+    #arte .panel-vitral img {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-cuadro img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico {
+        margin-top: 30px;
+    }
+    #arte .panel-text-mosaico {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico p {
+        padding-left: 30px;
+    }
+    #arte .panel-text-mosaico img {
+        margin-top: 30px;
+    }
+    #arte .panel-cristo {
+        margin-top: 130px;
+    }
+    #arte .panel-cristo img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-text-cristo {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  180px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 50px 50px 0 50px;
+        margin-top: 180px;
+        margin-bottom: 200px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 50px;
+        font-size: 1.4em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  160px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 50px 50px 0 50px;
+        margin-top: 200px;
+        margin-bottom: 300px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1.1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  100px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 130px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: .75em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  140px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #architecture-info .panel-img {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 420px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  140px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #architecture-info .panel-img {
+        margin-top: 10px;
+        margin-bottom: 40px;
     }
 }
 
