@@ -183,7 +183,7 @@ hr {
     }
     #main-menu.navbar-default {
         background: transparent;
-        }
+    }
     #main-menu.navbar-default .navbar-nav {
         background: rgba(132, 67, 152, .8);
         margin-top: 10px;
@@ -202,10 +202,11 @@ hr {
     }
     #main-menu.navbar-default .navbar-nav > li.active > a,
     #main-menu.navbar-default .navbar-nav > li.open > a,
-    #main-menu.navbar-default .navbar-nav > li:hover > a {
+    #main-menu.navbar-default .navbar-nav > li:hover > a,
+    #main-menu.navbar-default .navbar-nav > li:focus > a {
         background: rgba(132, 67, 152, 1);
-        padding-top: 10px;
-        border-radius: 0px;
+        margin-right: 0;
+        border-radius: 0;
     }
     .closebtn {
         display: none;
@@ -431,14 +432,14 @@ hr {
         background-color: transparent;
     }
     #general-info .panel {
-        padding: 50px 50px 0 50px;
+        padding: 50px 50px 10px 50px;
         margin-top: 180px;
         margin-bottom: 200px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
     #general-info .panel p {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         font-size: 1.4em;
         font-weight: 200;
         line-height: 1.5;
@@ -457,14 +458,14 @@ hr {
         background-color: transparent;
     }
     #general-info .panel {
-        padding: 50px 50px 0 50px;
+        padding: 50px 50px 10px 50px;
         margin-top: 180px;
         margin-bottom: 200px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
     #general-info .panel p {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         font-size: 1.4em;
         font-weight: 200;
         line-height: 1.5;
@@ -483,7 +484,7 @@ hr {
         background-color: transparent;
     }
     #general-info .panel {
-        padding: 50px 50px 0 50px;
+        padding: 50px 50px 10px 50px;
         margin-top: 200px;
         margin-bottom: 300px;
         height: auto;
@@ -918,7 +919,7 @@ hr {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1200px) {
     #get-in-touch {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -965,7 +966,7 @@ hr {
         color: #fff;
     }
     #get-in-touch .contact img {
-        margin-top: 46px;
+        margin-top: 25px;
         max-width: 150px;
     }
     #get-in-touch .contact h3 {
@@ -988,7 +989,7 @@ hr {
         line-height: 1.5;
     }
     #get-in-touch .contact-address, .contact-phone {
-        margin-top: 32px;
+        margin-top: 19px;
     }
     #get-in-touch .contact a, a:focus  {
         margin-right: 20px;
@@ -1201,6 +1202,57 @@ hr {
         line-height: 1.5;
         color: #844398;
     }
+    #arte {
+        font-size: 1.2em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(242, 224, 195, 0), rgba(242, 224, 195, 1));
+    }
+    #arte .panel {
+        padding: 30px;
+        margin-bottom: 130px;
+    }
+    #arte h1 {
+        color: #844398;
+    }
+    #arte .panel p {
+        margin-bottom: 20px;
+        padding-right: 30px;
+    }
+    #arte .panel-vitral img {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-cuadro img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico {
+        margin-top: 30px;
+    }
+    #arte .panel-text-mosaico {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico p {
+        padding-left: 30px;
+    }
+    #arte .panel-text-mosaico img {
+        margin-top: 30px;
+    }
+    #arte .panel-cristo {
+        margin-top: 130px;
+    }
+    #arte .panel-cristo img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-text-cristo {
+        margin-top: 30px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1216,7 +1268,7 @@ hr {
     #architecture-info .panel {
         padding: 50px 50px 0 50px;
         margin-top: 200px;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
@@ -1226,6 +1278,58 @@ hr {
         font-weight: 200;
         line-height: 1.5;
         color: #844398;
+    }
+    #arte {
+        font-size: .8em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(242, 224, 195, 0), rgba(242, 224, 195, 1));
+    }
+    #arte .panel {
+        padding: 30px;
+        margin-bottom: 130px;
+    }
+    #arte h1 {
+        color: #844398;
+        font-size: 2em;
+    }
+    #arte .panel p {
+        margin-bottom: 20px;
+        padding-right: 30px;
+    }
+    #arte .panel-vitral img {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-cuadro img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico {
+        margin-top: 30px;
+    }
+    #arte .panel-text-mosaico {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico p {
+        padding-left: 0px;
+    }
+    #arte .panel-text-mosaico img {
+        margin-top: 30px;
+    }
+    #arte .panel-cristo {
+        margin-top: 120px;
+    }
+    #arte .panel-cristo img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-text-cristo {
+        margin-top: 30px;
     }
 }
 
