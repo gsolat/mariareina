@@ -454,7 +454,7 @@ hr {
         background-color: #82CCEC;
         background-position: top center;
         background-repeat: repeat-x;
-        background-size:  180px;
+        background-size:  170px;
         background-color: transparent;
     }
     #general-info .panel {
@@ -466,9 +466,9 @@ hr {
     }
     #general-info .panel p {
         margin-bottom: 40px;
-        font-size: 1.4em;
+        font-size: 1.2em;
         font-weight: 200;
-        line-height: 1.5;
+        line-height: 1.7;
         color: #844398;
     }
 }
@@ -657,7 +657,7 @@ hr {
         color: #844398;
     }
     #attention .text p {
-       font-size: 1em;
+       font-size: .9em;
        font-family: 'Lato', sans-serif;
        color: #3c3c3d;
        font-weight: 400;
@@ -900,7 +900,7 @@ hr {
     }
     #get-in-touch .contact p {
         font-weight: 200;
-        font-size: .9em;
+        font-size: .8em;
     }
     #get-in-touch .contact-address, .contact-phone {
         margin-top: 46px;
@@ -1181,11 +1181,11 @@ hr {
 @media (min-width: 1200px) and (max-width: 1400px) {
     #architecture-info {
         height: auto;
-        background-image: url('../img/bg-1.svg');
+        background-image: url('../img/bg-2.svg');
         background-color: #82CCEC;
         background-position: top center;
         background-repeat: repeat-x;
-        background-size:  180px;
+        background-size: 90px;
         background-color: transparent;
     }
     #architecture-info .panel {
@@ -1199,7 +1199,7 @@ hr {
         margin-bottom: 50px;
         font-size: 1.4em;
         font-weight: 200;
-        line-height: 1.5;
+        line-height: 1.7;
         color: #844398;
     }
     #arte {
