@@ -1578,6 +1578,465 @@ hr {
 
 /* ------- ABOUT ------- */
 
+@media (min-width: 1400px) {
+    #history-info {
+        height: auto;
+        background-image: url('../img/bg-2.svg');
+        background-color: #82CCEC;
+        background-position: bottom center;
+        background-repeat: repeat-x;
+        background-size: 100px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 50px;
+        margin-top: 150px;
+        margin-bottom: 200px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 50px;
+        font-size: 1.6em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #arte {
+        font-size: 1.2em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(242, 224, 195, 0), rgba(242, 224, 195, 1));
+    }
+    #arte .panel {
+        padding: 30px;
+        margin-bottom: 130px;
+    }
+    #arte h1 {
+        color: #844398;
+    }
+    #arte .panel p {
+        margin-bottom: 20px;
+        padding-right: 30px;
+    }
+    #arte .panel-vitral img {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-cuadro img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico {
+        margin-top: 30px;
+    }
+    #arte .panel-text-mosaico {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico p {
+        padding-left: 30px;
+    }
+    #arte .panel-text-mosaico img {
+        margin-top: 30px;
+    }
+    #arte .panel-cristo {
+        margin-top: 130px;
+    }
+    #arte .panel-cristo img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-text-cristo {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    #history-info {
+        height: auto;
+        margin-bottom: 100px;
+        background-image: linear-gradient(#82ccec, rgba(255, 220, 119, 1));
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size: 90px;
+        background-color: transparent;
+    }
+    #history-info .panel {
+        padding: 50px;
+        margin-top: 180px;
+        margin-bottom: 100px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #history-info .panel p {
+        margin-bottom: 50px;
+        font-size: 1.2em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #history-info h3 {
+        color: #de5e4c;
+    }
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+    ul.timeline:before {
+        content: ' ';
+        background: #82ccec;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 3px;
+        height: 100%;
+        z-index: 400;
+    }
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 38px;
+    }
+    ul.timeline > li:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid #82ccec;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  160px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 50px 50px 0 50px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1.1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #arte {
+        font-size: .8em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(242, 224, 195, 0), rgba(242, 224, 195, 1));
+    }
+    #arte .panel {
+        padding: 30px;
+        margin-bottom: 130px;
+    }
+    #arte h1 {
+        color: #844398;
+        font-size: 2em;
+    }
+    #arte .panel p {
+        margin-bottom: 20px;
+        padding-right: 30px;
+    }
+    #arte .panel-vitral img {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-cuadro img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico {
+        margin-top: 30px;
+    }
+    #arte .panel-text-mosaico {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico p {
+        padding-left: 0px;
+    }
+    #arte .panel-text-mosaico img {
+        margin-top: 30px;
+    }
+    #arte .panel-cristo {
+        margin-top: 120px;
+    }
+    #arte .panel-cristo img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-text-cristo {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  100px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 130px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: .75em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #arte {
+        font-size: .7em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(242, 224, 195, 0), rgba(242, 224, 195, 1));
+    }
+    #arte .panel {
+        padding: 30px;
+        margin-bottom: 130px;
+    }
+    #arte h1 {
+        color: #844398;
+        font-size: 1.5em;
+    }
+    #arte .panel p {
+        margin-bottom: 10px;
+        padding-right: 10px;
+    }
+    #arte .panel-vitral img {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-cuadro img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico {
+        margin-top: 0px;
+    }
+    #arte .panel-text-mosaico {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico p {
+        padding-left: 0px;
+    }
+    #arte .panel-text-mosaico img {
+        margin-top: 30px;
+    }
+    #arte .panel-cristo {
+        margin-top: 10px;
+    }
+    #arte .panel-cristo img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-text-cristo {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  140px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #architecture-info .panel-img {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    #arte {
+        font-size: .9em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(242, 224, 195, 0), rgba(242, 224, 195, 1));
+    }
+    #arte .panel {
+        padding: 0px;
+        margin-bottom: 130px;
+    }
+    #arte h1 {
+        color: #844398;
+        font-size: 1.8em;
+    }
+    #arte .panel p {
+        margin-bottom: 10px;
+        padding-right: 10px;
+    }
+    #arte .panel-vitral img {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-cuadro img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico {
+        margin-top: 0px;
+    }
+    #arte .panel-text-mosaico {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico p {
+        padding-left: 0px;
+    }
+    #arte .panel-text-mosaico img {
+        margin-top: 30px;
+    }
+    #arte .panel-cristo {
+        margin-top: 10px;
+    }
+    #arte .panel-cristo img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-text-cristo {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 420px) {
+    #architecture-info {
+        height: auto;
+        background-image: url('../img/bg-1.svg');
+        background-color: #82CCEC;
+        background-position: top center;
+        background-repeat: repeat-x;
+        background-size:  140px;
+        background-color: transparent;
+    }
+    #architecture-info .panel {
+        padding: 30px 30px 0 30px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        height: auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0);
+    }
+    #architecture-info .panel p {
+        margin-bottom: 30px;
+        font-size: 1em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+    }
+    #architecture-info .panel-img {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    #arte {
+        font-size: .9em;
+        font-weight: 200;
+        line-height: 1.5;
+        color: #844398;
+        margin-bottom: 60px;
+        background-image: linear-gradient(rgba(242, 224, 195, 0), rgba(242, 224, 195, 1));
+    }
+    #arte .panel {
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    #arte h1 {
+        color: #844398;
+        font-size: 1.8em;
+    }
+    #arte .panel p {
+        margin-bottom: 10px;
+        padding-right: 10px;
+    }
+    #arte .panel-vitral img {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-cuadro img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #arte .panel-text-mosaico p {
+        padding-left: 0px;
+    }
+    #arte .panel-text-mosaico img {
+        margin-top: 30px;
+    }
+    #arte .panel-cristo {
+        margin-top: 10px;
+    }
+    #arte .panel-cristo img {
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-text-cristo {
+        margin-top: 0px;
+    }
+}
+
 /* @media (min-width: 1200px) {
     #pillars {
         background-color: #fff;
