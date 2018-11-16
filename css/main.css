@@ -594,7 +594,7 @@ hr {
        background-color: #FFF;
     }
     #attention .text {
-        padding-top: 30px;
+        padding-top: 60px;
         padding-bottom: 130px;
     }
     #attention .text .title {
@@ -634,7 +634,7 @@ hr {
     }
     #attention .text {
         padding-top: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 60px;
     }
     #attention .text .title {
        margin-top: calc(20% / 2);
@@ -679,14 +679,14 @@ hr {
        margin-top: calc(20% / 2);
     }
     #attention .title img {
-        margin-top: 20px;
+        margin-top: 10px;
         max-width: 100px;
     }
     #attention .visit-icon {
         padding-left: 0;
     }
     #attention .visit img {
-        margin: 10px 0;
+        margin: 20px 0 0 0 ;
         max-width: 80px;
     }
     #attention h2 {
@@ -856,9 +856,9 @@ hr {
         margin-top: 46px;
         max-width: 140px;
     }
-    #get-in-touch .contact h3, h4 {
+    #get-in-touch .contact h4, h5 {
         color: #fff;
-        font-weight: 400;
+        font-weight: 200;
         font-family: 'Lato', sans-serif;
     }
     #get-in-touch .contact p {
@@ -866,7 +866,7 @@ hr {
         font-size: .9em;
     }
     #get-in-touch .contact-address, .contact-phone {
-        margin-top: 46px;
+        margin-top: 30px;
     }
     #get-in-touch .contact a, a:focus  {
         color: #fff;
@@ -894,17 +894,18 @@ hr {
         margin-top: 46px;
         max-width: 140px;
     }
-    #get-in-touch .contact h3, h4 {
+    #get-in-touch .contact h4, h5 {
         color: #fff;
-        font-weight: 400;
+        font-weight: 200;
         font-family: 'Lato', sans-serif;
     }
     #get-in-touch .contact p {
         font-weight: 200;
         font-size: .8em;
+        line-height: 1.5;
     }
     #get-in-touch .contact-address, .contact-phone {
-        margin-top: 46px;
+        margin-top: 30px;
     }
     #get-in-touch .contact a, a:focus  {
         color: #fff;
@@ -922,8 +923,8 @@ hr {
 
 @media (min-width: 993px) and (max-width: 1200px) {
     #get-in-touch {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         height: auto;
         background-color: #844398;
         color: #fff;
@@ -932,18 +933,19 @@ hr {
         margin-top: 46px;
         max-width: 140px;
     }
-    #get-in-touch .contact h3, h4 {
-        font-size: 1.2em;
+    #get-in-touch .contact h5, h4 {
+        font-size: 1em;
         color: #fff;
-        font-weight: 400;
+        font-weight: 200;
         font-family: 'Lato', sans-serif;
     }
     #get-in-touch .contact p {
         font-weight: 200;
         font-size: .75em;
+        line-height: 1.5;
     }
     #get-in-touch .contact-address, .contact-phone {
-        margin-top: 46px;
+        margin-top: 27px;
     }
     #get-in-touch .contact a, a:focus  {
         color: #fff;
@@ -970,17 +972,17 @@ hr {
         margin-top: 25px;
         max-width: 150px;
     }
-    #get-in-touch .contact h3 {
-        font-size: .85em;
+    #get-in-touch .contact h4 {
+        font-size: .7em;
         color: #fff;
-        font-weight: 400;
+        font-weight: 200;
         margin: 5px 0;
         font-family: 'Lato', sans-serif;
     }
-    #get-in-touch .contact h4 {
-        font-size: .65em;
+    #get-in-touch .contact h5 {
+        font-size: .5em;
         color: #fff;
-        font-weight: 400;
+        font-weight: 200;
         margin: 5px 0;
         font-family: 'Lato', sans-serif;
     }
@@ -1020,14 +1022,17 @@ hr {
         background-color: #844398;
         color: #fff;
     }
-    #get-in-touch .contact h3 {
-        font-size: 1.59em;
-        color: #fff;
-        font-weight: 400;
-        font-family: 'Lato', sans-serif;
+    #get-in-touch .contact img {
+        margin-bottom: 30px;
     }
     #get-in-touch .contact h4 {
-        font-size: 1.1em;
+        font-size: 1em;
+        color: #fff;
+        font-weight: 200;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact h5 {
+        font-size: .7em;
         color: #fff;
         font-weight: 400;
         margin: 5px 0;
@@ -1035,11 +1040,11 @@ hr {
     }
     #get-in-touch .contact p {
         font-weight: 200;
-        font-size: .85em;
+        font-size: .8em;
         line-height: 1.5;
     }
     #get-in-touch .contact-address, .contact-phone, .contact-links {
-        margin-top: 32px;
+        margin-top: 25px;
     }
     #get-in-touch .contact a, a:focus  {
         margin-right: 20px;
@@ -1058,19 +1063,22 @@ hr {
 
 @media (min-width: 300px) and (max-width: 420px) {
     #get-in-touch {
-        padding: 60px 0;
+        padding: 66px 0;
         height: auto;
         background-color: #844398;
         color: #fff;
     }
-    #get-in-touch .contact h3 {
-        font-size: 1.59em;
-        color: #fff;
-        font-weight: 400;
-        font-family: 'Lato', sans-serif;
+    #get-in-touch .contact img {
+        margin-bottom: 30px;
     }
     #get-in-touch .contact h4 {
-        font-size: 1.1em;
+        font-size: 1em;
+        color: #fff;
+        font-weight: 200;
+        font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact h5 {
+        font-size: .7em;
         color: #fff;
         font-weight: 400;
         margin: 5px 0;
@@ -1078,11 +1086,11 @@ hr {
     }
     #get-in-touch .contact p {
         font-weight: 200;
-        font-size: .85em;
+        font-size: .80em;
         line-height: 1.5;
     }
     #get-in-touch .contact-address, .contact-phone, .contact-links {
-        margin-top: 32px;
+        margin-top: 25px;
     }
     #get-in-touch .contact a, a:focus  {
         color: #fff;
@@ -1597,9 +1605,9 @@ hr {
 @media (min-width: 1400px) {
     #history-info {
         height: auto;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         background-image: linear-gradient(#82ccec, rgba(255, 220, 119, 1));
-        background-color: #82CCEC;
+        background-color: #ffdc77;
         background-position: top center;
         background-repeat: repeat-x;
         background-size: 90px;
@@ -1607,20 +1615,21 @@ hr {
     }
     #history-info .panel {
         padding: 50px;
-        margin-top: 180px;
-        margin-bottom: 100px;
+        margin-top: 150px;
+        margin-bottom: 30px;
+        background-color: transparent;
         height: auto;
-        box-shadow: 0px 0px 10px rgba(0,0,0,.09);
+        box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
     #history-info .panel p {
         margin-bottom: 50px;
         font-size: 1.2em;
         font-weight: 200;
         line-height: 1.5;
-        color: #844398;
+        color: #000;
     }
     #history-info h3 {
-        color: #de5e4c;
+        color: #fff;
     }
     ul.timeline {
         list-style-type: none;
@@ -1628,7 +1637,7 @@ hr {
     }
     ul.timeline:before {
         content: ' ';
-        background: #82ccec;
+        background: #fff;
         display: inline-block;
         position: absolute;
         left: 29px;
@@ -1646,7 +1655,7 @@ hr {
         display: inline-block;
         position: absolute;
         border-radius: 50%;
-        border: 3px solid #82ccec;
+        border: 3px solid #fff;
         left: 20px;
         width: 20px;
         height: 20px;
@@ -1657,10 +1666,10 @@ hr {
 @media (min-width: 1200px) and (max-width: 1400px) {
     #history-info {
         height: auto;
-        margin-bottom: 100px;
-        background: linear-gradient(#82ccec, rgba(255, 220, 119, 1));
+        margin-bottom: 60px;
         /* background-image: url('../img/bg-3.svg'); */
-        /* background-color: #82CCEC; */
+        background: linear-gradient(#82ccec, rgba(255, 220, 119, 1));
+        background-color: #ffdc77;
         background-position: top center;
         background-repeat: repeat-x;
         background-size: 90px;
@@ -1669,7 +1678,7 @@ hr {
     #history-info .panel {
         padding: 50px;
         margin-top: 180px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
     }
@@ -1718,7 +1727,7 @@ hr {
 @media (min-width: 992px) and (max-width: 1200px) {
     #history-info {
         height: auto;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         background-image: linear-gradient(#82ccec, rgba(255, 220, 119, 1));
         background-color: #82CCEC;
         background-position: top center;
@@ -1778,7 +1787,7 @@ hr {
 @media (min-width: 768px) and (max-width: 991px) {
     #history-info {
         height: auto;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         background-image: linear-gradient(#82ccec, rgba(255, 220, 119, 1));
         background-color: #82CCEC;
         background-position: top center;
@@ -1838,7 +1847,7 @@ hr {
 @media (min-width: 420px) and (max-width: 767px) {
     #history-info {
         height: auto;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         background-image: linear-gradient(#82ccec, rgba(255, 220, 119, 1));
         background-color: #82CCEC;
         background-position: top center;
@@ -1898,7 +1907,7 @@ hr {
 @media (min-width: 300px) and (max-width: 420px) {
     #history-info {
         height: auto;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         background-image: linear-gradient(#82ccec, rgba(255, 220, 119, 1));
         background-color: #82CCEC;
         background-position: top center;
