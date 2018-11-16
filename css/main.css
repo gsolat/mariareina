@@ -268,7 +268,7 @@ hr {
     }
     #home-page .home-inner {
         position: relative;
-        margin: 230px 0 150px 0;
+        margin: 230px 0 180px 0;
         left: 0;
         width: 100%;
         height: auto;
@@ -436,7 +436,7 @@ hr {
     }
     #general-info .panel {
         padding: 50px 50px 10px 50px;
-        margin-top: 180px;
+        margin-top: 220px;
         margin-bottom: 200px;
         height: auto;
         box-shadow: 0px 0px 10px rgba(0,0,0,.09);
@@ -588,7 +588,7 @@ hr {
     }
 }
 
-/* ------- HORARIOS ------- */
+/* ------- TIME ------- */
 
 @media (min-width: 1400px) {
     #attention {
@@ -615,7 +615,7 @@ hr {
     }
     #attention h2 {
         color: #844398;
-        font-weight: 800;
+        font-weight: 600;
     }
     #attention h3 {
         color: #844398;
@@ -654,7 +654,7 @@ hr {
     }
     #attention h2 {
         color: #844398;
-        font-weight: 800;
+        font-weight: 600;
     }
     #attention h3 {
         color: #844398;
@@ -768,7 +768,7 @@ hr {
     #attention .title img {
         margin-top: 23px;
         margin-right: 0;
-        max-width: 95px;
+        max-width: 70px;
     }
     #attention .visit {
         margin-top: 10px;
@@ -778,17 +778,17 @@ hr {
     }
     #attention .visit img {
         margin: 10px 0;
-        max-width: 70px;
+        max-width: 50px;
     }
     #attention h2 {
         color: #844398;
-        font-weight: 800;
+        font-weight: 200;
         padding-left: 0;
     }
     #attention h3 {
         font-size: 1.159em;
         color: #844398;
-        font-weight: 800;
+        font-weight: 200;
         padding-left: 0;
     }
     #attention .text p {
@@ -810,9 +810,9 @@ hr {
         padding-bottom: 50px;
     }
     #attention .title img {
-        margin-top: 23px;
+        margin-top: 0;
         padding-left: 0;
-        max-width: 70px;
+        max-width: 60px;
     }
     #attention .visit {
         margin-top: 10px;
@@ -822,17 +822,17 @@ hr {
     }
     #attention .visit img {
         margin: 10px 0;
-        max-width: 70px;
+        max-width: 50px;
     }
     #attention h2 {
         color: #844398;
-        font-weight: 800;
+        font-weight: 200;
         padding-left: 0;
     }
     #attention h3 {
         font-size: 1.159em;
         color: #844398;
-        font-weight: 800;
+        font-weight: 200;
         padding-left: 0;
     }
     #attention .text p {
