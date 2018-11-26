@@ -36,7 +36,7 @@ a:focus {
     color: darken(#FF6D00, 10%);
 }
 hr {
-    margin-top: 40px;
+    margin-top: 30px;
     border-top: 1px solid #fff;
     /* border-bottom: 1px solid #fff; */
 }
@@ -142,10 +142,7 @@ hr {
         padding-top: 7px;
         padding-bottom: 7px;
         margin-bottom: 0px;
-
         /*---*/
-
-        padding: 8px 32px 48px 32px;
         text-decoration: none;
         color: #fff;
         display: block;
@@ -158,7 +155,10 @@ hr {
         right: 19px;
         font-size: 25px;
         font-weight: 200;
-
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+        font-weight: 400;
     }
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         border: none;
@@ -1519,7 +1519,7 @@ hr {
     #architecture-info .panel {
         padding: 40px 30px 0 30px;
         margin-top: 120px;
-        margin-bottom: 70px;
+        margin-bottom: 10px;
         height: auto;
         background-color: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
@@ -1541,7 +1541,7 @@ hr {
     }
     #arte .panel {
         padding: 10px 30px;
-        margin-bottom: 130px;
+        margin-bottom: 10px;
         background: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
@@ -1576,8 +1576,8 @@ hr {
     #arte .panel-mosaico img {
         border-radius: 3px;
     }
-    #arte .panel-text-mosaico {
-        margin: 30px 0;
+    #arte .panel-text, .panel-text-mosaico, .panel-text-presbiterio, .panel-text-cristo {
+        margin-top: 40px;
     }
     #arte .panel-text-mosaico img {
         margin-top: 30px;
@@ -1608,7 +1608,6 @@ hr {
     #architecture-info .panel {
         padding: 40px 30px 0 30px;
         margin-top: 120px;
-        margin-bottom: 70px;
         height: auto;
         background-color: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
@@ -1620,6 +1619,9 @@ hr {
         line-height: 1.7;
         color: #000;
     }
+    #arte .inner-section {
+        margin-top: 30px;
+    }
     #arte {
         font-size: 1.1em;
         font-weight: 200;
@@ -1630,7 +1632,7 @@ hr {
     }
     #arte .panel {
         padding: 10px 30px;
-        margin-bottom: 130px;
+        margin-bottom: 10px;
         background: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
@@ -1665,8 +1667,8 @@ hr {
     #arte .panel-mosaico img {
         border-radius: 3px;
     }
-    #arte .panel-text-mosaico {
-        margin: 30px 0;
+    #arte .panel-text, .panel-text-mosaico, .panel-text-presbiterio, .panel-text-cristo {
+        margin-top: 40px;
     }
     #arte .panel-text-mosaico img {
         margin-top: 30px;
@@ -1683,9 +1685,6 @@ hr {
     #arte .panel-cristo img {
         margin-bottom: 30px;
         border-radius: 3px;
-    }
-    #arte .panel-text-cristo {
-        margin-top: 30px;
     }
 }
 
@@ -1724,7 +1723,7 @@ hr {
     }
     #arte .panel {
         padding: 10px 30px;
-        margin-bottom: 130px;
+        margin-bottom: 10px;
         background: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
@@ -1758,8 +1757,8 @@ hr {
     #arte .panel-mosaico {
         margin: 105px 0px 30px 0;
     }
-    #arte .panel-text-mosaico {
-        margin: 30px 0;
+    #arte .panel-text, .panel-text-mosaico, .panel-text-presbiterio, .panel-text-cristo {
+        margin-top: 40px;
     }
     #arte .panel-mosaico img {
         border-radius: 3px;
@@ -1800,9 +1799,8 @@ hr {
         background-color: transparent;
     }
     #architecture-info .panel {
-        padding: 40px 30px 0 30px;
-        margin-top: 100px;
-        margin-bottom: 20px;
+        margin-top: 140px;
+        margin-bottom: 0px;
         height: auto;
         background-color: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
@@ -1821,10 +1819,10 @@ hr {
         color: #000;
         margin-bottom: 60px;
         background-image: linear-gradient(rgba(242, 224, 195, 1), rgba(130, 204, 236, 1));
+        padding-bottom: 100px;
     }
     #arte .panel {
-        padding: 10px 30px;
-        margin-bottom: 130px;
+        margin-bottom: 10px;
         background: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
@@ -1837,7 +1835,7 @@ hr {
         padding-right: 10px;
     }
     #arte .panel-vitral img {
-        margin-top: 45px;
+        margin-top: 85px;
         border-radius: 3px;
     }
     #arte #vitrales .panel-cuadro img {
@@ -1850,21 +1848,17 @@ hr {
         font-size: .75em;
     }
     #arte .panel-mosaico {
-        margin: 105px 0px 30px 0;
+        margin: 85px 0px 30px 0;
     }
     #arte .panel-cuadro img {
         margin-bottom: 30px;
         border-radius: 3px;
     }
-    #arte .panel-mosaico {
-        margin-top: 45px;
-    }
     #arte .panel-mosaico img {
         border-radius: 3px;
     }
-    #arte .panel-text-mosaico {
-        margin-top: 0px;
-        margin-bottom: 20px;
+    #arte .panel-text, .panel-text-mosaico, .panel-text-presbiterio, .panel-text-cristo {
+        margin-top: 40px;
     }
     #arte .panel-text-mosaico p {
         padding-left: 0px;
@@ -1873,7 +1867,7 @@ hr {
         margin-top: 30px;
     }
     #arte .panel-presbiterio  {
-        margin: 45px 0px 30px 0;
+        margin: 85px 0px 30px 0;
     }
     #arte .panel-presbiterio img {
         border-radius: 3px;
@@ -1882,11 +1876,9 @@ hr {
         margin-top: 65px;
     }
     #arte .panel-cristo img {
+        margin-top: 45px;
         margin-bottom: 30px;
         border-radius: 3px;
-    }
-    #arte .panel-text-cristo {
-        margin-top: 0px;
     }
 }
 
@@ -1926,11 +1918,12 @@ hr {
         line-height: 1.5;
         color: #000;
         margin-bottom: 60px;
+        padding-bottom: 60px;
         background-image: linear-gradient(rgba(242, 224, 195, 1), rgba(130, 204, 236, 1));
     }
     #arte .panel {
         padding: 10px 30px;
-        margin-bottom: 130px;
+        margin-bottom: 10px;
         background: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }
@@ -2038,7 +2031,7 @@ hr {
     }
     #arte .panel {
         padding: 10px 30px;
-        margin-bottom: 130px;
+        margin-bottom: 50px;
         background: transparent;
         box-shadow: 0px 0px 10px rgba(0,0,0,0);
     }

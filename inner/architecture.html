@@ -31,8 +31,17 @@
                 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <li ><a href="../index.html">Inicio</a></li>
                     <li ><a href="history.html">Historia</a></li>
-                    <li class="active"><a href="#">Arquitectura</a></li>
-                    <li ><a href="store.html">Tienda ·</a></li>
+                    <!-- <li class="active"><a href="#">Arquitectura</a></li> -->
+                    <li class="dropdown active">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Arquitectura <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#vitrales">Vitrales</a></li>
+                            <li><a href="#mosaicos">Mosaicos</a></li>
+                            <li><a href="#presbiterio">Presbiterio</a></li>
+                            <li><a href="#cristo">Cristo Latinoamericano</a></li>
+                          </ul>
+                        </li>
+                    <li ><a href="store.html">Tienda</a></li>
                     <li ><a href="#get-in-touch">Contacto</a></li>
                 </ul>
 			</div>
@@ -65,7 +74,8 @@
         	<div class="container">
     		    <div class="panel col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
     			    <div class="row">
-                        <div id="vitrales">
+
+                        <div id="vitrales" class="inner-section">
         				    <div class="panel-text col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
                                 <h1>Vitrales</h1>
                                 <p>El diseño y la elaboración de los vitrales de la Catedral Metropolitana María Reina de Barranquilla, estuvo a cargo de don Mario de Ayala, vitralista y diplomático español que fue cónsul honorario de España en Cali por 16 años.</p>
@@ -105,56 +115,81 @@
                         <div class="col-xs-12">
                             <hr>
                         </div>
-                        <div class="panel-text-mosaico col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-                            <h1>Mosaicos</h1>
-                            <p>Por otra parte, se destacan dos grandes mosaicos: al lado derecho de la entrada está el de San José, Patrono de la Arquidiócesis de Barranquilla. Al lado izquierdo, María Reina, titular de la Catedral Metropolitana. Estos mosaicos tienen 16 metros de alto por cinco metros de ancho en su medida total y cada una de las figuras mide nueve metros de alto. </p>
-                            <p>El diseño y la elaboración también son de don Mario de Ayala, quien ejecutó estas obras en Cali. El material empleado –importado de Italia– es mosaico de vidrio en color y en los rayos que emergen de la figura, mosaico de oro. Para la ejecución del rostro de San José hubo que cortar y ajustar 5.000 pequeñas piezas; si se tiene en cuenta que dicha cabeza tiene tres cuartas partes de un metro cuadrado, se estima que cada uno de los mosaicos elaborados estaría compuesto aproximadamente por unas 400.000 piezas de mosaicos.</p>
-    				    </div>
-                        <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-mosaico">
-                            <img src="../img/mosaicos/mosaico-01.png" class="img-responsive" alt="mosaico-maria">
-    				    </div>
-                        <div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
-                            <img src="../img/mosaicos/mosaico-02.png" class="img-responsive" alt="mosaico-jose">
-    				    </div>
+
+                    </div>
+               </div>
+               <div class="panel col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                   <div class="row">
+
+                        <div id="mosaicos" class="inner-section">
+                            <div class="panel-text-mosaico col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                                <h1>Mosaicos</h1>
+                                <p>Por otra parte, se destacan dos grandes mosaicos: al lado derecho de la entrada está el de San José, Patrono de la Arquidiócesis de Barranquilla. Al lado izquierdo, María Reina, titular de la Catedral Metropolitana. Estos mosaicos tienen 16 metros de alto por cinco metros de ancho en su medida total y cada una de las figuras mide nueve metros de alto. </p>
+                                <p>El diseño y la elaboración también son de don Mario de Ayala, quien ejecutó estas obras en Cali. El material empleado –importado de Italia– es mosaico de vidrio en color y en los rayos que emergen de la figura, mosaico de oro. Para la ejecución del rostro de San José hubo que cortar y ajustar 5.000 pequeñas piezas; si se tiene en cuenta que dicha cabeza tiene tres cuartas partes de un metro cuadrado, se estima que cada uno de los mosaicos elaborados estaría compuesto aproximadamente por unas 400.000 piezas de mosaicos.</p>
+        				    </div>
+                            <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-mosaico">
+                                <img src="../img/mosaicos/mosaico-01.png" class="img-responsive" alt="mosaico-maria">
+        				    </div>
+                            <div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
+                                <img src="../img/mosaicos/mosaico-02.png" class="img-responsive" alt="mosaico-jose">
+        				    </div>
+                        </div>
                         <div class="col-xs-12">
                             <hr>
                         </div>
-                        <div class="panel-text-presbiterio col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-                            <h1>Presbiterio</h1>
-                            <p>El altar de la catedral es una pieza de mármol en forma de yunque, la cual  tiene en el frente una placa de bronce que representa el día de Pentecostés. Tiene capacidad para 80 sillas permanentes y 70 más cuando se reúne el presbiterio en pleno. </p>
-                            <p>Como fondo del mismo, el ábside está recubierto con 600 láminas de poliuretano que representan el universo liberado por Cristo. Los elementos presentes son el hombre, la naturaleza, los astros y la Palabra de Dios.</p>
+
+                    </div>
+               </div>
+               <div class="panel col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                   <div class="row">
+
+                        <div id="presbiterio" class="inner-section">
+                            <div class="panel-text-presbiterio col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                                <h1>Presbiterio</h1>
+                                <p>El altar de la catedral es una pieza de mármol en forma de yunque, la cual  tiene en el frente una placa de bronce que representa el día de Pentecostés. Tiene capacidad para 80 sillas permanentes y 70 más cuando se reúne el presbiterio en pleno. </p>
+                                <p>Como fondo del mismo, el ábside está recubierto con 600 láminas de poliuretano que representan el universo liberado por Cristo. Los elementos presentes son el hombre, la naturaleza, los astros y la Palabra de Dios.</p>
+                            </div>
+                            <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-presbiterio">
+                                <img src="../img/mosaicos/mosaico-03.png" class="img-responsive" alt="mosaico-agua">
+        				    </div>
+                            <div class="col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
+                                <img src="../img/mosaicos/mosaico-04.png" class="img-responsive" alt="mosaico-aves">
+        				    </div>
+                            <div class="col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
+                                <img src="../img/mosaicos/mosaico-05.png" class="img-responsive" alt="mosaico-aves">
+        				    </div>
+                            <div class="col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
+                                <img src="../img/mosaicos/mosaico-06.png" class="img-responsive" alt="mosaico-aves">
+        				    </div>
                         </div>
-                        <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-presbiterio">
-                            <img src="../img/mosaicos/mosaico-03.png" class="img-responsive" alt="mosaico-agua">
-    				    </div>
-                        <div class="col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
-                            <img src="../img/mosaicos/mosaico-04.png" class="img-responsive" alt="mosaico-aves">
-    				    </div>
-                        <div class="col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
-                            <img src="../img/mosaicos/mosaico-05.png" class="img-responsive" alt="mosaico-aves">
-    				    </div>
-                        <div class="col-lg-4 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
-                            <img src="../img/mosaicos/mosaico-06.png" class="img-responsive" alt="mosaico-aves">
-    				    </div>
                         <div class="col-xs-12">
                             <hr>
                         </div>
-                        <div class="panel-text-cristo col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-                            <h1>Cristo Libertador Latinoamericano</h1>
-                            <p>Esta obra escultórica del maestro Rodrigo Arenas Betancourt y fundida por el maestro Darío Montoya, tiene 16 metros de alto y 7 de ancho, pesa 16 toneladas y fue elaborada en bronce, bajo el patrocinio de la Presidencia de la República, entre 1978 y 1985.</p>
-                            <p>Fue concebida como un homenaje a Cristo que reconcilia al hombre con Dios. El hombre surge de una gran ola recordando el mar por el cual llegó a América la civilización y la fe cristiana de España. Este hombre está representado en las tres figuras humanas: un blanco (el europeo), un indio (el aborigen) y un negro (el africano). Al fundirse estas tres razas, surge el hombre latinoamericano, un hombre esclavizado por el pecado, y sus consecuencias: la ignorancia, la injusticia, la violencia, la corrupción, el abuso de poder. Asimismo, un hombre en permanente proceso de liberación que busca su salvación en Cristo.</p>
-                            <p>El cuerpo de Cristo se llena de manos, huellas impresas en el pecho de su imagen, de ese pueblo que desea ser reconciliado consigo mismo, con la historia y con Dios al contacto con el cuerpo de Cristo. Cristo libera al pueblo por medio del fuego que surge del volcán de amor de su costado, que convertido en llamas forma la cruz, ya glorificada (en la mano derecha), y la ley (en el brazo izquierdo), por medio de las cuales libera al hombre, pero esta cruz y esa ley son de amor, pues la ley sin amor no libera y la cruz sin amor no santifica.</p>
-                            <p>La corona de espinas, después de la resurrección, no está sobre la cabeza como un signo de martirio, sino que se levanta de la espalda como un sol que ilumina la libertad del pueblo latinoamericano. Agua, fuego, razas (blanca, negra e india), con la fuerza amorosa de la cruz de Cristo, se orientan en una gran ascensión hacia el Padre Salvador.</p>
-    				    </div>
-                        <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cristo">
-                            <img src="../img/cristo/cristo-01.png" class="img-responsive" alt="cristo-plano-general">
-    				    </div>
-                        <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
-                            <img src="../img/cristo/cristo-02.png" class="img-responsive" alt="cristo-plano-cerrado">
-    				    </div>
-                        <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
-                            <img src="../img/cristo/cristo-03.png" class="img-responsive" alt="cristo-detalle">
-    				    </div>
+
+                    </div>
+               </div>
+               <div class="panel col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                   <div class="row">
+
+                        <div id="cristo" class="inner-section">
+                            <div class="panel-text-cristo col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                                <h1>Cristo Libertador Latinoamericano</h1>
+                                <p>Esta obra escultórica del maestro Rodrigo Arenas Betancourt y fundida por el maestro Darío Montoya, tiene 16 metros de alto y 7 de ancho, pesa 16 toneladas y fue elaborada en bronce, bajo el patrocinio de la Presidencia de la República, entre 1978 y 1985.</p>
+                                <p>Fue concebida como un homenaje a Cristo que reconcilia al hombre con Dios. El hombre surge de una gran ola recordando el mar por el cual llegó a América la civilización y la fe cristiana de España. Este hombre está representado en las tres figuras humanas: un blanco (el europeo), un indio (el aborigen) y un negro (el africano). Al fundirse estas tres razas, surge el hombre latinoamericano, un hombre esclavizado por el pecado, y sus consecuencias: la ignorancia, la injusticia, la violencia, la corrupción, el abuso de poder. Asimismo, un hombre en permanente proceso de liberación que busca su salvación en Cristo.</p>
+                                <p>El cuerpo de Cristo se llena de manos, huellas impresas en el pecho de su imagen, de ese pueblo que desea ser reconciliado consigo mismo, con la historia y con Dios al contacto con el cuerpo de Cristo. Cristo libera al pueblo por medio del fuego que surge del volcán de amor de su costado, que convertido en llamas forma la cruz, ya glorificada (en la mano derecha), y la ley (en el brazo izquierdo), por medio de las cuales libera al hombre, pero esta cruz y esa ley son de amor, pues la ley sin amor no libera y la cruz sin amor no santifica.</p>
+                                <p>La corona de espinas, después de la resurrección, no está sobre la cabeza como un signo de martirio, sino que se levanta de la espalda como un sol que ilumina la libertad del pueblo latinoamericano. Agua, fuego, razas (blanca, negra e india), con la fuerza amorosa de la cruz de Cristo, se orientan en una gran ascensión hacia el Padre Salvador.</p>
+        				    </div>
+                            <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cristo">
+                                <img src="../img/cristo/cristo-01.png" class="img-responsive" alt="cristo-plano-general">
+        				    </div>
+                            <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
+                                <img src="../img/cristo/cristo-02.png" class="img-responsive" alt="cristo-plano-cerrado">
+        				    </div>
+                            <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 panel-cuadro">
+                                <img src="../img/cristo/cristo-03.png" class="img-responsive" alt="cristo-detalle">
+        				    </div>
+                        </div>
+
     		    	</div>
     		   </div>
     		</div>
@@ -168,7 +203,7 @@
    		      	<div class="row">
 	   			    <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0">
                         <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-2 title">
-                            <!-- <img src="img/icono-reloj.svg" alt="" class="col-lg-2 col-offset-lg-0 col-md-4 col-offset-md-0 col-sm-4 col-offset-sm-0 col-xs-10 col-offset-xs-2"> -->
+                            <img src="../img/icono-reloj.svg" alt="" class="col-lg-2 col-offset-lg-0 col-md-4 col-offset-md-0 col-sm-4 col-offset-sm-0 col-xs-10 col-offset-xs-2">
                             <h2>HORARIOS DE ATENCIÓN</h2>
                         </div>
                         <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
