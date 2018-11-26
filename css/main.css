@@ -1555,28 +1555,38 @@ hr {
         padding-right: 30px;
     }
     #arte .panel-vitral img {
-        margin-top: 70px;
-        margin-bottom: 30px;
+        margin-top: 90px;
         border-radius: 3px;
+    }
+    #arte #vitrales .panel-cuadro img {
+        margin-bottom: 0px;
+    }
+    #arte #vitrales figcaption {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: .8em;
     }
     #arte .panel-cuadro img {
         margin-bottom: 30px;
         border-radius: 3px;
     }
     #arte .panel-mosaico {
-        margin: 0px 0px 30px 0;
+        margin: 120px 0px 30px 0;
+    }
+    #arte .panel-mosaico img {
+        border-radius: 3px;
     }
     #arte .panel-text-mosaico {
         margin: 30px 0;
     }
-    #arte .panel-text-mosaico p {
-        padding-left: 30px;
-    }
     #arte .panel-text-mosaico img {
         margin-top: 30px;
     }
+    #arte .panel-presbiterio  {
+        margin: 90px 0px 30px 0;
+    }
     #arte .panel-cristo {
-        margin-top: 130px;
+        margin-top: 160px;
     }
     #arte .panel-cristo img {
         margin-bottom: 30px;
@@ -1590,9 +1600,7 @@ hr {
 @media (min-width: 1200px) and (max-width: 1400px) {
     #architecture-info {
         height: auto;
-        /* background-image: url('../img/bg-2.svg'); */
         background-image: linear-gradient(rgba(130, 204, 236, 1), rgba(242, 224, 195, 1));
-        /* background-color: rgba(130, 204, 236, 1); */
         background-position: top center;
         background-repeat: repeat-x;
         background-size: 90px;
@@ -1637,24 +1645,37 @@ hr {
     }
     #arte .panel-vitral img {
         margin-top: 90px;
-        margin-bottom: 30px;
         border-radius: 3px;
+    }
+    #arte #vitrales .panel-cuadro img {
+        margin-bottom: 0px;
+    }
+    #arte #vitrales figcaption {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: .8em;
     }
     #arte .panel-cuadro img {
         margin-bottom: 30px;
         border-radius: 3px;
     }
     #arte .panel-mosaico {
-        margin: 0px 0px 30px 0;
+        margin: 115px 0px 30px 0;
+    }
+    #arte .panel-mosaico img {
+        border-radius: 3px;
     }
     #arte .panel-text-mosaico {
         margin: 30px 0;
     }
-    #arte .panel-text-mosaico p {
-        padding-left: 30px;
-    }
     #arte .panel-text-mosaico img {
         margin-top: 30px;
+    }
+    #arte .panel-presbiterio  {
+        margin: 90px 0px 30px 0;
+    }
+    #arte .panel-presbiterio img {
+        border-radius: 3px;
     }
     #arte .panel-cristo {
         margin-top: 160px;
@@ -1719,24 +1740,41 @@ hr {
     }
     #arte .panel-vitral img {
         margin-top: 80px;
-        margin-bottom: 30px;
         border-radius: 3px;
+    }
+    #arte #vitrales .panel-cuadro img {
+        margin-bottom: 0px;
+    }
+    #arte #vitrales figcaption {
+        margin-top: 3px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: .6em;
     }
     #arte .panel-cuadro img {
         margin-bottom: 30px;
         border-radius: 3px;
     }
     #arte .panel-mosaico {
-        margin: 0px 0px 30px 0;
+        margin: 105px 0px 30px 0;
     }
     #arte .panel-text-mosaico {
         margin: 30px 0;
+    }
+    #arte .panel-mosaico img {
+        border-radius: 3px;
     }
     #arte .panel-text-mosaico p {
         padding-left: 0px;
     }
     #arte .panel-text-mosaico img {
         margin-top: 30px;
+    }
+    #arte .panel-presbiterio  {
+        margin: 90px 0px 30px 0;
+    }
+    #arte .panel-presbiterio img {
+        border-radius: 3px;
     }
     #arte .panel-cristo {
         margin-top: 130px;
@@ -1799,16 +1837,30 @@ hr {
         padding-right: 10px;
     }
     #arte .panel-vitral img {
-        margin-top: 10px;
-        margin-bottom: 30px;
+        margin-top: 45px;
         border-radius: 3px;
+    }
+    #arte #vitrales .panel-cuadro img {
+        margin-bottom: 0px;
+    }
+    #arte #vitrales figcaption {
+        margin-top: 3px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: .75em;
+    }
+    #arte .panel-mosaico {
+        margin: 105px 0px 30px 0;
     }
     #arte .panel-cuadro img {
         margin-bottom: 30px;
         border-radius: 3px;
     }
     #arte .panel-mosaico {
-        margin-top: 0px;
+        margin-top: 45px;
+    }
+    #arte .panel-mosaico img {
+        border-radius: 3px;
     }
     #arte .panel-text-mosaico {
         margin-top: 0px;
@@ -1820,8 +1872,14 @@ hr {
     #arte .panel-text-mosaico img {
         margin-top: 30px;
     }
+    #arte .panel-presbiterio  {
+        margin: 45px 0px 30px 0;
+    }
+    #arte .panel-presbiterio img {
+        border-radius: 3px;
+    }
     #arte .panel-cristo {
-        margin-top: 10px;
+        margin-top: 65px;
     }
     #arte .panel-cristo img {
         margin-bottom: 30px;
@@ -1887,11 +1945,25 @@ hr {
     }
     #arte .panel-vitral img {
         margin-top: 10px;
-        margin-bottom: 30px;
         border-radius: 3px;
+    }
+    #arte #vitrales .panel-cuadro img {
+        margin-bottom: 0px;
+    }
+    #arte #vitrales figcaption {
+        margin-top: 3px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: .85em;
+    }
+    #arte .panel-mosaico {
+        margin-bottom: 30px;
     }
     #arte .panel-cuadro img {
         margin-bottom: 30px;
+        border-radius: 3px;
+    }
+    #arte .panel-mosaico img {
         border-radius: 3px;
     }
     #arte .panel-mosaico {
@@ -1906,6 +1978,13 @@ hr {
     }
     #arte .panel-text-mosaico img {
         margin-top: 30px;
+    }
+    #arte .panel-presbiterio  {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    #arte .panel-presbiterio img {
+        border-radius: 3px;
     }
     #arte .panel-cristo {
         margin-top: 10px;
@@ -1974,16 +2053,26 @@ hr {
     }
     #arte .panel-vitral img {
         margin-top: 10px;
+        border-radius: 3px;
+    }
+    #arte #vitrales .panel-cuadro img {
+        margin-bottom: 0px;
+    }
+    #arte #vitrales figcaption {
+        margin-top: 3px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: .85em;
+    }
+    #arte .panel-mosaico {
         margin-bottom: 30px;
+    }
+    #arte .panel-mosaico img {
         border-radius: 3px;
     }
     #arte .panel-cuadro img {
         margin-bottom: 30px;
         border-radius: 3px;
-    }
-    #arte .panel-mosaico {
-        margin-top: 0px;
-        margin-bottom: 20px;
     }
     #arte .panel-text-mosaico {
         margin-top: 0px;
@@ -1994,6 +2083,13 @@ hr {
     }
     #arte .panel-text-mosaico img {
         margin-top: 30px;
+    }
+    #arte .panel-presbiterio  {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    #arte .panel-presbiterio img {
+        border-radius: 3px;
     }
     #arte .panel-cristo {
         margin-top: 10px;
