@@ -647,7 +647,7 @@ hr {
     }
     #attention .text {
         padding-top: 100px;
-        padding-bottom: 160px;
+        padding-bottom: 130px;
     }
     #attention .title img {
         margin-top: 25px;
@@ -784,6 +784,9 @@ hr {
         padding-top: 30px;
         padding-bottom: 50px;
     }
+    #attention .title {
+        padding-left: 0;
+    }
     #attention .title img {
         margin-top: 23px;
         margin-right: 0;
@@ -818,6 +821,9 @@ hr {
     }
     #attention .time-second-col {
         margin-top: 5px;
+    }
+    #attention .time-info {
+        padding-left: 0;
     }
 }
 
@@ -867,6 +873,9 @@ hr {
     #attention .time-second-col {
         margin-top: 5px;
     }
+    #attention .time-info {
+        padding-left: 0;
+    }
 }
 
 /* ------- CONTACT ------- */
@@ -887,12 +896,13 @@ hr {
         color: #fff;
         font-weight: 200;
         font-family: 'Lato', sans-serif;
+        margin: 15px 0;
     }
     #get-in-touch .contact p {
         font-weight: 200;
         font-size: .9em;
     }
-    #get-in-touch .contact-address, .contact-phone {
+    #get-in-touch .contact-address {
         margin-top: 30px;
     }
     #get-in-touch .contact a, a:focus  {
@@ -935,6 +945,9 @@ hr {
         font-size: .8em;
         line-height: 1.5;
     }
+    #get-in-touch .contact-address {
+        margin-top: 30px;
+    }
     #get-in-touch .contact a, a:focus  {
         color: #fff;
         font-weight: 200;
@@ -952,8 +965,8 @@ hr {
 
 @media (min-width: 993px) and (max-width: 1200px) {
     #get-in-touch {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         height: auto;
         background-color: #844398;
         color: #fff;
@@ -963,13 +976,16 @@ hr {
     }
     #get-in-touch .contact img {
         margin-top: 36px;
-        max-width: 140px;
+        max-width: 180px;
     }
     #get-in-touch .contact h5, h4 {
-        font-size: 1em;
+        font-size: .8em;
         color: #fff;
         font-weight: 200;
         font-family: 'Lato', sans-serif;
+    }
+    #get-in-touch .contact-address {
+        margin-top: 23px;
     }
     #get-in-touch .contact p {
         font-weight: 200;
