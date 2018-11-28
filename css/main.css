@@ -2203,7 +2203,7 @@ hr {
     }
     #store-info .panel h1 {
         text-align: center;
-        color: #844398;
+        color: #000;
         font-weight: 200;
         margin-bottom: 40px;
     }
@@ -2215,7 +2215,7 @@ hr {
         color: #000;
     }
     #store-info .store-img {
-        margin-bottom: 120px;
+        margin-bottom: 20px;
     }
     #store-info .panel img {
         border-radius: 3px;
@@ -2245,7 +2245,7 @@ hr {
     }
     #store-info .panel h1 {
         text-align: center;
-        color: #844398;
+        color: #000;
         font-weight: 200;
         margin-bottom: 40px;
     }
@@ -2284,12 +2284,13 @@ hr {
     }
     #store-info .panel h1 {
         text-align: center;
-        color: #844398;
+        color: #000;
+        font-size: 1.5em;
         font-weight: 200;
         margin-bottom: 40px;
     }
     #store-info .panel p {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         font-size: 1em;
         font-weight: 200;
         line-height: 1.5;
@@ -2323,7 +2324,8 @@ hr {
     }
     #store-info .panel h1 {
         text-align: center;
-        color: #844398;
+        color: #000;
+        font-size: 1.5em;
         font-weight: 200;
         margin-bottom: 40px;
     }
@@ -2362,12 +2364,13 @@ hr {
     }
     #store-info .panel h1 {
         text-align: center;
-        color: #844398;
+        color: #000;
+        font-size: 1.8em;
         font-weight: 200;
         margin-bottom: 40px;
     }
     #store-info .panel p {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         font-size: 1em;
         font-weight: 200;
         line-height: 1.5;
@@ -2401,12 +2404,13 @@ hr {
     }
     #store-info .panel h1 {
         text-align: center;
-        color: #844398;
+        color: #000;
+        font-size: 1.8em;
         font-weight: 200;
         margin-bottom: 40px;
     }
     #store-info .panel p {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         font-size: 1em;
         font-weight: 200;
         line-height: 1.5;
